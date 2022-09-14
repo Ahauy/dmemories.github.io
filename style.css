@@ -261,7 +261,7 @@ h3 {
 
 @media screen and (max-width: 991.98px) {
     .wrapper {
-        width: 700px;
+        width: 990px;
     }
 
     .logo a {
@@ -276,7 +276,7 @@ h3 {
     
     img {
         margin: auto;
-        max-width: 640px;  
+        width: 640px;  
     }
     nav .menu {
         width: 90%;
