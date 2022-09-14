@@ -276,7 +276,7 @@ h3 {
     
     img {
         margin: auto;
-        width: 640px;  
+        max-width: 640px;  
     }
     nav .menu {
         width: 100%;
@@ -313,7 +313,7 @@ h3 {
     }
 
     .kartu-partner img {
-        width: 215px;
+        max-width: 215px;
         max-height: 285px;
         border: 5px solid black;
     }
