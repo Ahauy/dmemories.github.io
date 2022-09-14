@@ -265,10 +265,6 @@ h3 {
         text-align: center;
     }
 
-    .pertama img {
-        margin-top: 30px;
-    }
-    
     img {
         margin: auto;
         width: 640px;  
@@ -308,8 +304,8 @@ h3 {
     }
 
     .kartu-partner img {
-        width: 215px;
-        max-height: 285px;
+        width: 95%;
+        max-height: 175px;
         border: 5px solid black;
     }
 
