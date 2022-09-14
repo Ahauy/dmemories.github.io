@@ -22,7 +22,7 @@ body {
     width: 100%;
 }
 
-video {
+.wrapper video {
     align-content: center;
     width: 100%;
     border: 6px solid black;
@@ -270,9 +270,9 @@ h3 {
         width: 640px;  
     }
 
-    video {
+    .wrapper video {
         align-content: center;
-        width: 90%;
+        width: 100%;
         border: 6px solid black;
     }
 
