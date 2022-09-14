@@ -269,6 +269,13 @@ h3 {
         margin: auto;
         width: 640px;  
     }
+
+    video {
+        align-content: center;
+        width: 90%;
+        border: 6px solid black;
+    }
+
     nav .menu {
         width: 100%;
         margin: 0;
@@ -311,7 +318,7 @@ h3 {
 
     .video-partner {
         padding-left: 10px;
-        width: 100%;
+        width: 90%;
         margin: 20px;
         max-height: 1000px;
     }
