@@ -329,3 +329,228 @@ h3 {
         max-height: 1000px;
     }
 }
+
+@media screen and (max-width: 632.98px) {
+    .wrapper {
+        width: 98%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    img {
+        margin: auto;
+        width: 640px;  
+    }
+
+    .wrapper video {
+        align-content: center;
+        width: 97%;
+        border: 6px solid black;
+    }
+
+    nav {
+        width: 100%;
+    }
+    
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 25%;
+    }
+
+    .kartu-partner {
+        width: 33%;
+    }
+
+    .kartu-partner img {
+        width: 90%;
+        max-height: 175px;
+        border: 5px solid black;
+    }
+
+    .video-partner {
+        padding-left: 20px;
+        width: 100%;
+        margin: 20px;
+        max-height: 1000px;
+    }
+}
+
+@media screen and (max-width: 582.98px) {
+    .wrapper {
+        width: 94%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    img {
+        margin: auto;
+        width: 640px;  
+    }
+
+    .wrapper video {
+        align-content: center;
+        width: 97%;
+        border: 6px solid black;
+    }
+
+    nav {
+        width: 100%;
+    }
+    
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 25%;
+    }
+
+    .kartu-partner {
+        width: 33%;
+    }
+
+    .kartu-partner img {
+        width: 90%;
+        max-height: 175px;
+        border: 5px solid black;
+    }
+
+    .video-partner {
+        padding-left: 20px;
+        width: 100%;
+        margin: 20px;
+        max-height: 1000px;
+    }
+}
+
+@media screen and (max-width: 400.98px) {
+    .wrapper {
+        width: 97%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    img {
+        margin: auto;
+        width: 640px;  
+    }
+
+    .wrapper video {
+        align-content: center;
+        width: 97%;
+        border: 6px solid black;
+    }
+
+    nav {
+        width: 100%;
+    }
+    
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 25%;
+    }
+
+    .kartu-partner {
+        width: 33%;
+    }
+
+    .kartu-partner img {
+        width: 90%;
+        max-height: 175px;
+        border: 5px solid black;
+    }
+
+    .video-partner {
+        padding-left: 20px;
+        width: 100%;
+        margin: 20px;
+        max-height: 1000px;
+    }
+}
+
+
+
