@@ -337,6 +337,15 @@ h3 {
         width: 98%;
     }
 
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans',sans-serif;
+        background-image: url(https://i.postimg.cc/8cjRKYj8/gambar.png);
+        min-height: 100vh;
+        min-width: 100vw;
+    }
+
     .logo a {
         display: block;
         width: 100%;
@@ -409,6 +418,15 @@ h3 {
 @media screen and (max-width: 582.98px) {
     .wrapper {
         width: 94%;
+    }
+    
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans',sans-serif;
+        background-image: url(https://i.postimg.cc/8cjRKYj8/gambar.png);
+        min-height: 100vh;
+        min-width: 100vw;
     }
 
     .logo a {
@@ -483,6 +501,15 @@ h3 {
 @media screen and (max-width: 400.98px) {
     .wrapper {
         width: 97%;
+    }
+
+    body {
+        margin: 0px;
+        padding: 0px;
+        font-family: 'Open Sans',sans-serif;
+        background-image: url(https://i.postimg.cc/8cjRKYj8/gambar.png);
+        min-height: 100vh;
+        min-width: 100vw;
     }
 
     .logo a {
