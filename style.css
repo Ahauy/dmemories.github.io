@@ -4,6 +4,10 @@
     padding: 0px;
 }
 
+html {
+    width: -webkit-fill-available;
+}
+
 body {
     margin: 0px;
     padding: 0px;
@@ -11,6 +15,7 @@ body {
     background-image: url(https://i.postimg.cc/8cjRKYj8/gambar.png);
     min-height: 100vh;
     min-width: 100vw;
+    width: -webkit-fill-available;
 }
 
 .wrapper {
