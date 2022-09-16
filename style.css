@@ -18,7 +18,6 @@ body {
     min-height: 100vh;
     min-width: 100vw;
     width: -webkit-fill-available;
-    width: fill-available;
 }
 
 .wrapper {
