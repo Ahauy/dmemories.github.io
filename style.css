@@ -364,6 +364,7 @@ h3 {
     }
 
     .logo a {
+        max-height: 50px;
         font-size: 30px;
         display: block;
         width: 100%;
@@ -448,6 +449,7 @@ h3 {
     }
 
     .logo a {
+        max-height: 45px;
         font-size: 30px;
         display: block;
         width: 100%;
@@ -532,6 +534,7 @@ h3 {
     }
 
     .logo a {
+        max-height: 40px;
         display: block;
         width: 100%;
         text-align: center;
