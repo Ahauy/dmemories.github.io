@@ -282,7 +282,7 @@ h3 {
     
     .logo a {
         display: block;
-        width: 100%;
+        width: 90%;
         text-align: center;
     }
 
@@ -309,7 +309,7 @@ h3 {
     nav .menu ul {
         text-align: center;
         margin: auto;
-        line-height: 60px;
+        line-height: 45px;
     }
 
     nav .menu ul li {
@@ -365,7 +365,7 @@ h3 {
 
     .logo a {
         display: block;
-        width: 100%;
+        width: 85%;
         text-align: center;
     }
 
@@ -392,7 +392,7 @@ h3 {
     nav .menu ul {
         text-align: center;
         margin: auto;
-        line-height: 60px;
+        line-height: 45px;
     }
 
     nav .menu ul li {
@@ -448,7 +448,7 @@ h3 {
 
     .logo a {
         display: block;
-        width: 100%;
+        width: 80%;
         text-align: center;
     }
 
@@ -475,7 +475,7 @@ h3 {
     nav .menu ul {
         text-align: center;
         margin: auto;
-        line-height: 50px;
+        line-height: 45px;
     }
 
     nav .menu ul li {
