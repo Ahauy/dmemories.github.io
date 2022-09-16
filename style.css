@@ -243,8 +243,8 @@ p {
 }
 
 .footer-section img {
-    width: 190px;
-    margin-right: 30px;
+    width: 100px;
+    margin: 15px;
 }
 
 h3 {
@@ -282,7 +282,7 @@ h3 {
     
     .logo a {
         display: block;
-        width: 90%;
+        width: 100%;
         text-align: center;
     }
 
@@ -365,7 +365,7 @@ h3 {
 
     .logo a {
         display: block;
-        width: 85%;
+        width: 100%;
         text-align: center;
     }
 
@@ -434,7 +434,7 @@ h3 {
 
 @media screen and (max-width: 582.98px) {
     .wrapper {
-        width: 94%;
+        width: 90%;
     }
     
     body {
@@ -448,7 +448,7 @@ h3 {
 
     .logo a {
         display: block;
-        width: 80%;
+        width: 100%;
         text-align: center;
     }
 
@@ -517,7 +517,7 @@ h3 {
 
 @media screen and (max-width: 400.98px) {
     .wrapper {
-        width: 97%;
+        width: 90%;
     }
 
     body {
