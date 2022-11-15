@@ -666,7 +666,7 @@ h4 {
     }
 }
 
-@media screen and (max-width: 400.98px) {
+@media screen and (max-width: 480.98px) {
     .wrapper {
         width: 90%;
     }
@@ -747,6 +747,24 @@ h4 {
         width: 100%;
         margin: 20px;
         max-height: 1000px;
+    }
+
+    .pot {
+        padding-left: 0px;
+    }
+
+    .pot img {
+        width: 22%;
+        margin: inherit;
+    }
+    
+    .sca {
+        padding-left: 0px;
+    }
+
+    .sca img {
+        width: 47%;
+        margin: inherit;
     }
 }
 
