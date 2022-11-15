@@ -458,11 +458,21 @@ h4 {
     }
 
     h4 {
-        font-size: 50px;
+        font-size: 40px;
         padding: 10px;
         border-bottom: 10px solid black;
         font-weight: bolder;
         font-family: 'comic sans ms';
+    }
+
+    h2 {
+        font-family: 'comic sans ms';
+        font-weight: 900;
+        font-size: 36px;
+        margin-bottom: 20px;
+        color: #364f6b;
+        width: 100%;
+        line-height: 50px;
     }
 
     .galerikepala {
