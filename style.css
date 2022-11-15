@@ -166,6 +166,7 @@ a.tbl-pink:hover {
 }
 
 p {
+    font-weight: 900;
     margin: 5px 10px 5px 11px;
     padding: 10px 0px 10px 0px;
 }
@@ -229,20 +230,22 @@ p {
 }
 
 .pot {
-    padding-left: 22px;
+    padding-left: 5px;
 }
 
 .pot img {
-    width: 12%;
+    border: 3px solid black;
+    width: 11.55%;
     margin: inherit;
 }
 
 .sca {
-    padding-left: 26px;
+    padding-left: 7px;
 }
 
 .sca img {
-    width: 24.25%;
+    border: 3px solid black;
+    width: 24%;
     margin: inherit;
 }
 
@@ -441,7 +444,7 @@ h4 {
     }
 
     .pot img {
-        width: 24%;
+        width: 22.5%;
         margin: inherit;
     }
     
@@ -450,7 +453,7 @@ h4 {
     }
 
     .sca img {
-        width: 49%;
+        width: 48%;
         margin: inherit;
     }
 
