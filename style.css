@@ -131,8 +131,6 @@ h2 {
     color: #364f6b;
     width: 100%;
     line-height: 50px;
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 a.tbl-biru {
@@ -319,8 +317,7 @@ h3 {
     color: #364f6b;
     width: 100%;
     line-height: 50px;
-    margin-left: 15px;
-    margin-right: 15px;
+    text-align: center;
 }
 
 h5 {
