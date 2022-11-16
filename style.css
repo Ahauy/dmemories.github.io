@@ -70,7 +70,7 @@ nav {
     position: -webkit-sticky; 
     top: 0;
     background: #FFFFFF;
-    z-index: 1;
+    z-index: 5;
     border-bottom:1px solid #364f6b;
 }
 
@@ -602,16 +602,46 @@ h4 {
         display: block;
         margin: 50px auto ;
         border: 6px solid black;
+        overflow: hidden;
     }
 
     .carousel-item {
-        position: absolute;
+        position: absolute-;
         top: 0;
         bottom: 0;
         left: 0;
         right: 0;
         padding: 0px 10px;
         opacity: 0;
+    }
+
+    .item-1 {
+        z-index: 2;
+        opacity: 1;
+        background: url('photo/spec/spec1/spec%20(1).jpg');
+        background-size: cover;
+    }
+
+    .arrow {
+        width: 15px;
+        height: 15px;
+        border: solid #959595;
+        border-width: 0 10px 10px 0;
+        display: inline-block;
+        padding: 8px;
+    }
+    .arrow-prev {
+        left: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(135deg);
+
+    }
+    .arrow-next {
+        right: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
     }
 }
 
@@ -717,6 +747,36 @@ h4 {
         padding: 0px 10px;
         opacity: 0;
     }
+
+    .item-1 {
+        z-index: 2;
+        opacity: 1;
+        background: url('photo/spec/spec1/spec%20(1).jpg');
+        background-size: cover;
+    }
+
+    .arrow {
+        width: 15px;
+        height: 15px;
+        border: solid #959595;
+        border-width: 0 10px 10px 0;
+        display: inline-block;
+        padding: 8px;
+    }
+    .arrow-prev {
+        left: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(135deg);
+
+    }
+    .arrow-next {
+        right: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
 }
 
 @media screen and (max-width: 582.98px) {
@@ -821,6 +881,36 @@ h4 {
         padding: 0px 10px;
         opacity: 0;
     }
+
+    .item-1 {
+        z-index: 2;
+        opacity: 1;
+        background: url('photo/spec/spec1/spec%20(1).jpg');
+        background-size: cover;
+    }
+
+    .arrow {
+        width: 15px;
+        height: 15px;
+        border: solid #959595;
+        border-width: 0 10px 10px 0;
+        display: inline-block;
+        padding: 8px;
+    }
+    .arrow-prev {
+        left: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(135deg);
+
+    }
+    .arrow-next {
+        right: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
 }
 
 @media screen and (max-width: 480.98px) {
@@ -942,6 +1032,36 @@ h4 {
         padding: 0px 10px;
         opacity: 0;
     }
+
+    .item-1 {
+        z-index: 2;
+        opacity: 1;
+        background: url('photo/spec/spec1/spec%20(1).jpg');
+        background-size: cover;
+    }
+
+    .arrow {
+        width: 15px;
+        height: 15px;
+        border: solid #959595;
+        border-width: 0 10px 10px 0;
+        display: inline-block;
+        padding: 8px;
+    }
+    .arrow-prev {
+        left: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(135deg);
+
+    }
+    .arrow-next {
+        right: 15px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%) rotate(-45deg);
+    }
+
 }
 
 
