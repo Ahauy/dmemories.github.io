@@ -349,6 +349,8 @@ h4 {
     margin-top: 50px;
 }
 
+/* untuk slide an */
+
 .carousel-wrapper {
     height: 585px;
     position: relative;
@@ -371,7 +373,7 @@ h4 {
 .arrow {
     width: 15px;
     height: 15px;
-    border: solid black; 
+    border: solid #959595;
     border-width: 0 15px 15px 0;
     display: inline-block;
     padding: 12px;
@@ -396,19 +398,35 @@ h4 {
 .item-1 {
     z-index: 2;
     opacity: 1;
-    background: url('photo/sca/sca%20(1).jpg');
+    background: url('photo/spec/spec1/spec%20(1).jpg');
     background-size: cover;
 }
 .item-2 {
-    background: url('photo/sca/sca%20(10).jpg');
+    background: url('photo/spec/spec1/spec%20(2).jpg');
     background-size: cover;
 }
 .item-3 {
-    background: url('photo/sca/sca%20(0).jpg');
+    background: url('photo/spec/spec1/spec%20(3).jpg');
     background-size: cover;
 }
 .item-4 {
-    background: url('photo/sca/sca%20(11).jpg');
+    background: url('photo/spec/spec1/spec%20(4).jpg');
+    background-size: cover;
+}
+.item-5 {
+    background: url('photo/spec/spec1/spec%20(5).jpg');
+    background-size: cover;
+}
+.item-6 {
+    background: url('photo/spec/spec1/spec%20(6).jpg');
+    background-size: cover;
+}
+.item-7 {
+    background: url('photo/spec/spec1/spec%20(7).jpg');
+    background-size: cover;
+}
+.item-8 {
+    background: url('photo/spec/spec1/spec%20(8).jpg');
     background-size: cover;
 }
 
@@ -419,7 +437,7 @@ h4 {
     opacity: 1;
 
 }
-#item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4 {
+#item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8 {
     z-index: 3;
     opacity: 1;
 } 
@@ -576,6 +594,25 @@ h4 {
         align-items: center;
         font-family: 'comic sans ms';  
     }
+
+    .carousel-wrapper {
+        max-height: 307px;
+        position: relative;
+        max-width: 550px;
+        display: block;
+        margin: 50px auto ;
+        border: 6px solid black;
+    }
+
+    .carousel-item {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0px 10px;
+        opacity: 0;
+    }
 }
 
 @media screen and (max-width: 632.98px) {
@@ -661,6 +698,25 @@ h4 {
         margin: 20px;
         max-height: 1000px;
     }
+
+    .carousel-wrapper {
+        max-height: 280px;
+        position: relative;
+        max-width: 500px;
+        display: block;
+        margin: 50px auto ;
+        border: 6px solid black;
+    }
+
+    .carousel-item {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0px 10px;
+        opacity: 0;
+    }
 }
 
 @media screen and (max-width: 582.98px) {
@@ -745,6 +801,25 @@ h4 {
         width: 100%;
         margin: 20px;
         max-height: 1000px;
+    }
+
+    .carousel-wrapper {
+        max-height: 225px;
+        position: relative;
+        max-width: 400px;
+        display: block;
+        margin: 50px auto ;
+        border: 6px solid black;
+    }
+
+    .carousel-item {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0px 10px;
+        opacity: 0;
     }
 }
 
@@ -847,6 +922,25 @@ h4 {
     .sca img {
         width: 47%;
         margin: inherit;
+    }
+
+    .carousel-wrapper {
+        max-height: 180px;
+        position: relative;
+        max-width: 320px;
+        display: block;
+        margin: 50px auto ;
+        border: 6px solid black;
+    }
+
+    .carousel-item {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 0px 10px;
+        opacity: 0;
     }
 }
 
