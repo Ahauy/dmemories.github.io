@@ -79,6 +79,7 @@ img {
     padding: 3em 0 3em 0;
     text-align: left;
     box-shadow: -0px 2px 10px 0px #adadad;
+    padding-bottom: 0;
 }
 
 #artabout {
