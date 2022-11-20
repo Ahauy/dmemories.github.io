@@ -87,6 +87,13 @@ img {
     box-shadow: 0px 1px 10px 0px gray inset;
 }
 
+.row h3 {
+    font-size: 60px;
+    color: black;
+    margin-top: 25px;
+    font-family: "Segoe UI",Arial,sans-serif;
+}
+
 .row > .col1 {
     width: 33%;
 }
@@ -117,7 +124,7 @@ img {
     font-size: 20px;
     text-align: left;
     color: black;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .row {
@@ -142,7 +149,7 @@ img {
 
 .row > .col4 {
     width: 50%;
-    padding-top: 20px;
+    padding-top: 5px;
 }
 
 .row > .col4 > h2 {
@@ -163,6 +170,122 @@ img {
     text-align: left;
     color: black;
     margin-top: 30px;
+}
+
+.row > .col5 {
+    width: 33%;
+}
+
+.row > .col6 {
+    width: 33%;
+}
+
+.row > .col7 {
+    width: 33%;
+}
+
+.row > .col5 button h3{
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 750;
+}
+
+.row > .col6 button h3{
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 750;
+}
+
+.row > .col7 button h3{
+    font-size: 35px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 750;
+}
+
+.row > .col5 button p{
+    font-size: 15px;
+    margin: 0;
+    font-style: italic;
+    color: #4f4f4f;
+}
+
+.row > .col6 button p{
+    font-size: 15px;
+    margin: 0;
+    margin-top: 10px;
+    font-style: italic;
+    color: #4f4f4f;
+}
+
+.row > .col7 button p{
+    font-size: 15px;
+    margin: 0;
+    font-style: italic;
+    color: #4f4f4f;
+}
+
+.row > .col5 button {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+    border: 2px solid #c4c4c4;
+    box-shadow: 0 3px 10px #c4c4c4;
+    position: relative;
+    cursor: pointer;
+}
+
+.row > .col5 button:hover {
+    top: -15px;
+    width: 96%;
+}
+
+.row > .col6 button:hover {
+    top: -15px;
+    width: 101%;
+}
+
+.row > .col7 button:hover {
+    top: -15px;
+    width: 96%;
+}
+
+.row > .col6 button {
+    width: 100%;
+    background-color: white;
+    border: 2px solid #c4c4c4;
+    box-shadow: 0 3px 10px #c4c4c4;
+    position: relative;
+    cursor: pointer;
+}
+
+.row > .col7 button {
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    background-color: white;
+    border: 2px solid #c4c4c4;
+    box-shadow: 0 3px 10px #c4c4c4;
+    position: relative;
+    cursor: pointer;
+}
+
+.row > .col5 img {
+    width: 100%;
+}
+
+.row > .col6 img {
+    width: 100%;
+}
+
+.row > .col7 img {
+    width: 100%;
 }
 
 nav {
@@ -202,10 +325,6 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #393939;
     transition: background-color .3s ease-in-out;
-}
-
-section {
-    margin-bottom: 20px;
 }
 
 .kolom {
@@ -269,6 +388,12 @@ a.tbl-pink:hover {
 }
 
 p {
+    font-weight: 900;
+    margin: 5px 10px 5px 11px;
+    padding: 10px 0px 10px 0px;
+}
+
+p1 {
     font-weight: 900;
     margin: 5px 10px 5px 11px;
     padding: 10px 0px 10px 0px;
@@ -433,10 +558,13 @@ p {
     background: gray;
     border: 1px solid #2c2c2c;
     margin: 1px 15px 1px;
+    position: relative;
+    cursor: pointer;
 }
 
 .tombolig:hover {
-    background-color: #2c2c2c;
+    top: -10px;
+    background-color: #d3d3d3;
     transition: background-color .2s ease-in-out;
 }
 
@@ -506,9 +634,6 @@ img.spec {
     font-family: 'Font Awesome 5 Brands';
 }
 
-h9 {
-    font-family: 'Font Awesome 5 Brands';
-}
 /* untuk slide an */
 
 .carousel-wrapper {
@@ -717,6 +842,7 @@ h9 {
         text-align: left;
         color: black;
         margin-top: 0px;
+        margin-bottom: 5px;
     }
 
     .row > .col4 > h3 {
@@ -732,6 +858,55 @@ h9 {
         text-align: left;
         color: black;
         margin-top: 0px;
+    }
+
+    .row > .col5 button h3{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col6 button h3{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col7 button h3{
+        font-size: 18px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col5 button p{
+        font-size: 13px;
+        margin: 0;
+        font-style: italic;
+        color: #4f4f4f;
+        padding-top: 0;
+    }
+
+    .row > .col6 button p{
+        font-size: 13px;
+        margin: 0;
+        margin-top: 3px;
+        font-style: italic;
+        color: #4f4f4f;
+        padding-top: 0;
+    }
+
+    .row > .col7 button p{
+        font-size: 13px;
+        margin: 0;
+        font-style: italic;
+        color: #4f4f4f;
+        padding-top: 0;
     }
 
     .kartu-tutor {
@@ -1011,6 +1186,78 @@ h9 {
         transform: translateY(-50%) rotate(-45deg);
     }
 
+    .row > .col4 > h2 {
+        text-align: left;
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+
+    .row > .col4 > h3 {
+        font-size: 35px;
+        text-align: left;
+        color: black;
+        margin-top: 10px;
+    }
+
+
+    .row > .col4 > p {
+        font-size: 12px;
+        text-align: left;
+        color: black;
+        margin-top: 0px;
+    }
+
+    .row > .col5 button h3{
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col6 button h3{
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col7 button h3{
+        font-size: 16px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col5 button p{
+        font-size: 10px;
+        margin: 0;
+        font-style: italic;
+        color: #4f4f4f;
+        padding-top: 0;
+    }
+
+    .row > .col6 button p{
+        font-size: 10px;
+        margin: 0;
+        margin-top: 3px;
+        font-style: italic;
+        color: #4f4f4f;
+        padding-top: 0;
+    }
+
+    .row > .col7 button p{
+        font-size: 10px;
+        margin: 0;
+        font-style: italic;
+        color: #4f4f4f;
+        padding-top: 0;
+    }
+
 }
 
 @media screen and (max-width: 582.98px) {
@@ -1142,6 +1389,79 @@ h9 {
         position: absolute;
         top: 50%;
         transform: translateY(-50%) rotate(-45deg);
+    }
+
+
+    .row > .col4 > h2 {
+        text-align: left;
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 25px;
+    }
+
+    .row > .col4 > h3 {
+        font-size: 25px;
+        text-align: left;
+        color: black;
+        margin-top: 10px;
+    }
+
+
+    .row > .col4 > p {
+        font-size: 11px;
+        text-align: left;
+        color: black;
+        margin-top: 0px;
+    }
+
+    .row > .col5 button h3{
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col6 button h3{
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col7 button h3{
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col5 button p{
+        font-size: 8px;
+        margin: 0;
+        font-style: italic;
+        color: #4f4f4f;
+        padding-top: 0;
+    }
+
+    .row > .col6 button p{
+        font-size: 8px;
+        margin: 0;
+        margin-top: 3px;
+        font-style: italic;
+        color: #4f4f4f;
+        padding-top: 0;
+    }
+
+    .row > .col7 button p{
+        font-size: 8px;
+        margin: 0;
+        font-style: italic;
+        color: #4f4f4f;
+        padding-top: 0;
     }
 
 }
@@ -1308,15 +1628,94 @@ h9 {
     }
 
     .tombolig {
-    border-radius: 20px;
-    background: gray;
-    border: 1px solid gray;
+        border-radius: 20px;
+        background: gray;
+        border: 1px solid gray;
     }
 
     .tombolig img {
-    width: 35px
+        width: 35px
     }
 
+    .row > .col4 > h2 {
+        text-align: left;
+        color: black;
+        margin-top: 0px;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+
+    .row > .col4 > h3 {
+        font-size: 25px;
+        text-align: left;
+        color: black;
+        margin-top: 10px;
+    }
+
+
+    .row > .col4 > p {
+        font-size: 9px;
+        text-align: left;
+        color: black;
+        margin-top: 0px;
+    }
+
+    .row > .col5 button h3{
+        font-size: 13px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col5 button h3{
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col6 button h3{
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col7 button h3{
+        font-size: 10px;
+        margin-top: 5px;
+        margin-bottom: 0px;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 750;
+    }
+
+    .row > .col5 button p{
+        font-size: 6px;
+        margin: 0;
+        font-style: italic;
+        color: #4f4f4f;
+        padding-top: 0;
+    }
+
+    .row > .col6 button p{
+        font-size: 6px;
+        margin: 0;
+        margin-top: 3px;
+        font-style: italic;
+        color: #4f4f4f;
+        padding-top: 0;
+    }
+
+    .row > .col7 button p{
+        font-size: 6px;
+        margin: 0;
+        font-style: italic;
+        color: #4f4f4f;
+        padding-top: 0;
+    }
 }
 
 
