@@ -79,7 +79,7 @@ img {
     padding: 3em 0 3em 0;
     text-align: left;
     box-shadow: -0px 2px 10px 0px #adadad;
-    padding-bottom: 0;
+    padding-bottom: 25px;
 }
 
 #artabout {
@@ -89,7 +89,7 @@ img {
 }
 
 .row h3 {
-    font-size: 60px;
+    font-size: 50px;
     color: black;
     margin-top: 25px;
     font-family: "Segoe UI",Arial,sans-serif;
@@ -153,20 +153,20 @@ img {
     padding-top: 5px;
 }
 
-.row > .col4 > h2 {
+.row > .col4  h2 {
     text-align: left;
     color: black;
     margin-top: 30px;
 }
 
-.row > .col4 > h3 {
+.row > .col4  h3 {
     font-size: 50px;
     text-align: left;
     color: black;
     margin-top: 50px;
 }
 
-.row > .col4 > p {
+.row > .col4  p {
     font-size: 20px;
     text-align: left;
     color: black;
@@ -289,6 +289,46 @@ img {
     width: 100%;
 }
 
+.row > .colpesan {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.row > .colpesan img {
+    width: 100%;
+}
+
+.row > .colpesan > .box p {
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 20px;
+}
+
+.row > .colpesan > .box button {
+    width: 95%;
+    height: 150px;
+    background: #dddddd;
+    color: black;
+    border-radius: 30px;
+    font-size: 45px;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    font-family: 'comic sans ms';|
+    position: relative;
+    box-shadow: 0 3px 10px #c4c4c4;
+    border: 2px solid #c4c4c4;
+}
+
+.row > .colpesan > .box button:hover {
+    position: relative;
+    top: -10px;
+    width: 99%;
+    background-color: white;
+    transition: background-color .3s ease-in-out;
+}
+
 nav {
     width: 100%;
     margin: auto;
@@ -314,7 +354,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 18px;
+    font-size: 23px;
     border-radius: 8px;
     color: white;
     font-weight: bolder;
@@ -547,11 +587,12 @@ p1 {
     border-radius: 30px;
     width: 450px;
     height: 190px;
-    font-size: 60px;
+    font-size: 45px;
     text-align: center;
     align-content: center;
     align-items: center;
-    font-family: 'comic sans ms';  
+    font-family: 'comic sans ms';|
+    position: relative;
 }
 
 .tombolig {
@@ -795,11 +836,11 @@ img.spec {
     }
 
     .row > .col1 img {
-        width: 50%;
+        width: 40%;
         margin: 0 auto;
         align-self: center;
-        margin-left: 25%;
-        margin-right: 25%;
+        margin-left: 30%;
+        margin-right: 30%;
     }
 
     .row > .col2 {
@@ -813,7 +854,7 @@ img.spec {
     }
 
     .row > .col2 > h3 {
-        font-size: 40px;
+        font-size: 35px;
         text-align: center;
         color: black;
         margin-top: 10px;
@@ -821,7 +862,7 @@ img.spec {
 
 
     .row > .col2 > p {
-        font-size: 20px;
+        font-size: 18-px;
         text-align: center;
         color: black;
         margin-top: 10px;
@@ -863,6 +904,11 @@ img.spec {
     }
     .row > .col7:hover {
         margin: 5%;
+    }
+
+    .row > .colpesan {
+        width: 100%;
+        margin: 0;
     }
 
     .kartu-tutor {
@@ -1011,13 +1057,14 @@ img.spec {
     }
     
     .row > .col4 p {
-        text-align: center;
+        text-align: left;
         margin-top: 10px;
     }
 
     .row > .col4 h2 {
-        text-align: center;
+        text-align: left;
         margin-top: 10px;
+        margin-left: 4px;
     }
 }
 
@@ -1150,6 +1197,17 @@ img.spec {
         position: absolute;
         top: 50%;
         transform: translateY(-50%) rotate(-45deg);
+    }
+    
+    .row > .col4 p {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    .row > .col4 h2 {
+        text-align: left;
+        margin-top: 10px;
+        margin-left: 4px;
     }
 
 }
@@ -1341,12 +1399,12 @@ img.spec {
     }
 
     nav ul li a {
-        font-size: 13px;
+        font-size: 16px;
         border-radius: 8px;
         color: white;
         font-weight: bolder;
         text-align: center;
-        padding: 5px 13px 5px 13px;
+        padding: 5px 9px 5px 9px;
         text-decoration: none;
     }
 
@@ -1504,6 +1562,12 @@ img.spec {
         font-style: italic;
         color: #4f4f4f;
         padding-top: 0;
+    }
+
+    .row > .col4 p {
+        font-size: 15px;
+        text-align: left;
+        margin-top: 10px;
     }
 }
 
