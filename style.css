@@ -307,11 +307,11 @@ img {
 
 .row > .colpesan > .box button {
     width: 95%;
-    height: 150px;
+    height: 135px;
     background: #dddddd;
     color: black;
-    border-radius: 30px;
-    font-size: 45px;
+    border-radius: 35px;
+    font-size: 42px;
     text-align: center;
     align-content: center;
     align-items: center;
@@ -326,8 +326,14 @@ img {
     top: -10px;
     width: 99%;
     background-color: white;
-    transition: background-color .3s ease-in-out;
+    transition: background-color .2s ease-in-out;
 }
+
+.best > .row > .col7 button:hover {
+    background-color: black;
+    transition: background-color .2 ease-in-out;
+}
+
 
 nav {
     width: 100%;
@@ -617,7 +623,7 @@ p1 {
 .box {
     background: white;
     box-sizing: border-box;
-    margin: 20px 20px;
+    margin: 9px 12px;
     padding: 10px 20px;
     width: calc(100% - 40px);
     border-radius: 15px;
@@ -625,6 +631,10 @@ p1 {
     text-align: center;
     font-size: auto;
     
+}
+
+.row > .col4> .box p {
+    margin: 13px;
 }
 
 h3 {
@@ -1065,6 +1075,22 @@ img.spec {
         text-align: left;
         margin-top: 10px;
         margin-left: 4px;
+    }
+
+    .row > .colpesan > .box button {
+        width: 95%;
+        height: 100px;
+        background: #dddddd;
+        color: black;
+        border-radius: 35px;
+        font-size: 27px;
+        text-align: center;
+        align-content: center;
+        align-items: center;
+        font-family: 'comic sans ms';|
+        position: relative;
+        box-shadow: 0 3px 10px #c4c4c4;
+        border: 2px solid #c4c4c4;
     }
 }
 
