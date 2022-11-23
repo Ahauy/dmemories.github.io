@@ -135,11 +135,6 @@ img {
     align-items: stretch;
 }
 
-.container > .row video {
-    width: 100%;
-    padding: 15px 5% 15px;
-}
-
 .row > .col3 {
     width: 50%;
 }
@@ -327,6 +322,15 @@ img {
     width: 99%;
     background-color: white;
     transition: background-color .2s ease-in-out;
+}
+
+.row > .colvideo  {
+    width: calc(100% - 30px);
+    margin: 3% 5% 3%;
+}
+
+.row > .colvideo video {
+    width: 100%;
 }
 
 /* best */
