@@ -329,11 +329,63 @@ img {
     transition: background-color .2s ease-in-out;
 }
 
-.best > .row > .col7 button:hover {
-    background-color: black;
-    transition: background-color .2 ease-in-out;
+/* best */
+
+.best > .row > .col5 {
+    width: 50%;
 }
 
+.best > .row > .col5 h3 {
+    font-size: 25px;
+    color: gray;
+    font-weight: 580;
+}
+
+.best > .row > .col5 img {
+    width: 93%;
+    box-shadow: 0px 2px 10px 1px #adadad;
+}
+
+.best > .row > .col6 {
+    width: 50%;
+}
+
+.best > .row > .col6 h3 {
+    font-size: 25px;
+    color: gray;
+    font-weight: 580;
+}
+
+.best > .row > .col6 img {
+    width: 93%;
+    box-shadow: 0px 2px 10px 1px #adadad;
+}
+
+
+.best > .row > .col5 button {
+    width: 85%;
+    height: 87%;
+    margin: 7.5%;
+}
+
+.best > .row > .col5 button:hover {
+    width: 97%;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+}
+
+
+.best > .row > .col6 button {
+    width: 85%;
+    height: 87%;
+    margin: 7.5%;
+}
+
+.best > .row > .col6 button:hover {
+    width: 97%;
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
 
 nav {
     width: 100%;
@@ -1092,6 +1144,24 @@ img.spec {
         box-shadow: 0 3px 10px #c4c4c4;
         border: 2px solid #c4c4c4;
     }
+
+    /* best */
+    
+    .best > .row > .col5 {
+        margin: 0;
+    }
+
+    .best > .row > .col5 img {
+        margin: 5px;
+    }
+
+    .best > .row > .col6 {
+        margin: 0;
+    }
+    
+    .best > .row > .col6 img {
+        margin: 5px;
+    }
 }
 
 @media screen and (max-width: 632.98px) {
@@ -1367,6 +1437,18 @@ img.spec {
         position: absolute;
         top: 50%;
         transform: translateY(-50%) rotate(-45deg);
+    }
+
+    /* best */
+
+    .best > .row > .col5 h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .best > .row > .col6 h3 {
+        font-size: 15px;
+        line-height: 20px;
     }
 }
 
