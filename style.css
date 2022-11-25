@@ -376,8 +376,18 @@ img {
     width: 97%;
     margin-right: 1.5%;
     margin-left: 1.5%;
+    transition: all 0.33s ease-in-out;
 }
 
+.best > .row > .col5 button:hover .hidetext {
+    display: block;
+    color: black;
+}
+
+.best > .row > .col6 button:hover .hidetext {
+    display: block;
+    color: black;
+}
 
 .best > .row > .col6 button {
     width: 85%;
@@ -389,6 +399,14 @@ img {
     width: 97%;
     margin-left: 1.5%;
     margin-right: 1.5%;
+    transition: all 0.33s ease-in-out;
+}
+
+.hidetext {
+    display: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: 500;
 }
 
 nav {
@@ -1165,6 +1183,20 @@ img.spec {
     
     .best > .row > .col6 img {
         margin: 5px;
+    }
+
+    .best > .row > .col5 h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .best > .row > .col6 h3 {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+    .hidetext {
+        font-size: 11px;
     }
 }
 
