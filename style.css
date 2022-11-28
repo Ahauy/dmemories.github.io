@@ -324,6 +324,16 @@ img {
     transition: background-color .2s ease-in-out;
 }
 
+.col4 > .box > .namapesan {
+    text-align: right;
+    color: black;
+    font-weight: 900;
+}
+
+.col4 > .box p { 
+    text-align: center;
+}
+
 .row > .colvideo  {
     width: calc(100% - 30px);
     margin: 3% 5% 3%;
@@ -458,15 +468,6 @@ nav ul li a:hover {
     padding-right: 90px;
 }
 
-.kolom .deskripsi {
-    font-size: 30px;
-    font-weight: bold;
-    font-family: 'comic sans ms';
-    color: #364f6b;
-    margin-right: 15px;
-    margin-left: 15px;
-}
-
 h2 {
     text-align: center;
     font-family: 'comic sans ms';
@@ -476,36 +477,6 @@ h2 {
     color: #364f6b;
     width: 100%;
     line-height: 50px;
-}
-
-a.tbl-biru {
-    background: #3f72af;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-a.tbl-biru:hover {
-    background: #fc5185;
-    text-decoration: none;
-}
-
-a.tbl-pink {
-    background: #fc5185;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-a.tbl-pink:hover {
-    background: #3f72af;
-    text-decoration: none;
 }
 
 p {
@@ -540,6 +511,12 @@ p1 {
 .kartu-tutor img {
     width: 80%;
     border-radius: 50%;
+    box-shadow: 0px 0px 5px 1px gray;
+}
+
+.kartu-tutor > .walas img:hover {
+    width: 85%;
+    transition: width 0.2s ease-in-out;
 }
 
 .kartu-tutor p {
