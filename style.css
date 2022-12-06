@@ -490,9 +490,9 @@ img {
 }
 
 .row > .col1spec {
-    width: 48%;
+    width: 90%;
     box-shadow: -0px 2px 10px 0px gray;
-    margin: 1%;
+    margin: 2% 5%; 
 }
 
 .row > .col1spec video {
@@ -510,9 +510,9 @@ img {
 }
 
 .row > .col2spec {
-    width: 48%;
+    width: 90%;
     box-shadow: -0px 2px 10px 0px gray;
-    margin: 1%;  
+    margin: 2% 5%;  
 }
 
 .row > .col2spec video {
@@ -1196,7 +1196,7 @@ img.spec {
     .carousel-wrapper {
         max-height: 420px;
         position: relative;
-        width: 95%;
+        width: 93%;
         display: block;
         margin: 10px auto ;
         border: 6px solid black;
@@ -1302,9 +1302,9 @@ img.spec {
     }
 
     .special > .row > .col1 h2 {
-        font-size: calc(1vw + 1em);
+        font-size: calc(1vw + 1em);     
     }
-
+    
     .special > .row > .col2 p {
         font-size: calc(1vw + 0.5em);
     }
@@ -1420,7 +1420,7 @@ img.spec {
     .carousel-wrapper {
         max-height: 300px;
         position: relative;
-        width: 95%;
+        width: 93%;
         display: block;
         margin: 10px auto ;
         border: 6px solid black;
@@ -1575,7 +1575,7 @@ img.spec {
     .carousel-wrapper {
         max-height: 290px;
         position: relative;
-        width: 95%;
+        width: 93%;
         display: block;
         margin: 10px auto ;
         border: 6px solid black;
@@ -1749,7 +1749,7 @@ img.spec {
     .carousel-wrapper {
         max-height: 185px;
         position: relative;
-        width: 95%;
+        width: 93%;
         display: block;
         margin: 10px auto ;
         margin-bottom: 20px;
@@ -1863,6 +1863,7 @@ img.spec {
     .special > .row > .col1 h2 {
         font-size: calc(1vw + 0.5em);
         line-height: 3px;
+        margin: 8% 0;
     }
 
     .special > .row > .col2 p {
