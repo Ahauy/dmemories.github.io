@@ -381,13 +381,13 @@ img {
     width: 85%;
     height: 87%;
     margin: 7.5%;
+    transition: all 0.33s ease-in-out;
 }
 
 .best > .row > .col5 button:hover {
     width: 97%;
     margin-right: 1.5%;
-    margin-left: 1.5%;
-    transition: all 0.33s ease-in-out;
+    margin-left: 1.5%;;
 }
 
 .best > .row > .col5 button:hover .hidetext {
@@ -404,13 +404,13 @@ img {
     width: 85%;
     height: 87%;
     margin: 7.5%;
+    transition: all 0.33s ease-in-out;
 }
 
 .best > .row > .col6 button:hover {
     width: 97%;
     margin-left: 1.5%;
     margin-right: 1.5%;
-    transition: all 0.33s ease-in-out;
 }
 
 .hidetext {
@@ -419,6 +419,128 @@ img {
     font-family: sans-serif;
     font-weight: 500;
 }
+
+/* special */
+
+.special {
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px gray;
+    border-radius: 2%;
+}
+
+.special > .row > .col1 {
+    width: 45%;
+    margin: 2.5%;
+    box-shadow: 0px 0px 10px 2px gray;
+    transition: all 0.13s ease-in-out;
+}
+
+.special > .row > .col1:hover {
+    width: 48%;
+    margin: 2% 1%;
+}
+
+.special > .row > .col1 img {
+    width: 90%;
+    margin: 5%;
+    margin-bottom: 0
+}
+
+.special > .row > .col1 h2 {
+    color: black;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-size: 35px;
+    text-align: center;
+    line-height: 15px;
+    margin-top: 2.5%;
+}
+
+.special > .row > .col2 {
+    width: 45%;
+    padding: 2.5%;
+}
+
+.tombolexpand{
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+}
+
+.tombolexpand:focus {
+    font-size: 20.3px;
+    text-decoration: underline;
+}
+
+.tombolexpand:focus + .hidespec {
+    display: block;
+    height: 100%;
+}
+
+/* hide special */
+
+.hidespec {
+    display: none;
+    margin: 0 1.9%;
+    transition: all 5s ease;
+}
+
+.row > .col1spec {
+    width: 48%;
+    box-shadow: -0px 2px 10px 0px gray;
+    margin: 1%;
+}
+
+.row > .col1spec video {
+    width: 95%;
+    margin: 2.5%;
+    margin-bottom: 0;
+}
+
+.row > .col1spec h3 {
+    font-size: 25px;
+    color: gray;
+    font-weight: 580;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+.row > .col2spec {
+    width: 48%;
+    box-shadow: -0px 2px 10px 0px gray;
+    margin: 1%;  
+}
+
+.row > .col2spec video {
+    width: 95%;
+    margin: 2.5%;
+    margin-bottom: 0;
+}
+
+.row > .col2spec h3 {
+    font-size: 25px;
+    color: gray;
+    font-weight: 580;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+.unexpand {
+    background: white;
+    border: 2px solid white;
+    font-size: 20px;
+    margin: 1%;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
 
 nav {
     width: 100%;
@@ -748,6 +870,7 @@ img.spec {
     display: block;
     margin: 50px auto ;
     border: 8px solid black;
+    box-shadow: -0px 2px 10px 3px gray;
 }
 
 .carousel-item {
@@ -1071,11 +1194,11 @@ img.spec {
     }
 
     .carousel-wrapper {
-        max-height: 307px;
+        max-height: 420px;
         position: relative;
-        max-width: 550px;
+        width: 95%;
         display: block;
-        margin: 50px auto ;
+        margin: 10px auto ;
         border: 6px solid black;
         overflow: hidden;
     }
@@ -1177,6 +1300,38 @@ img.spec {
     .hidetext {
         font-size: 11px;
     }
+
+    .special > .row > .col1 h2 {
+        font-size: calc(1vw + 1em);
+    }
+
+    .special > .row > .col2 p {
+        font-size: calc(1vw + 0.5em);
+    }
+
+    .tombolexpand {
+        font-size: calc(1vw + 0.5em);
+    }
+
+    .tombolexpand:focus {
+        font-size: calc(1vw + 0.51em);
+        text-decoration: underline;
+    }
+
+    .row > .col1spec h3 {
+        font-size: calc(1vw + 0.61em);
+        line-height: 20px;
+    }
+
+    .row > .col2spec h3 {
+        font-size: calc(1vw + 0.61em);
+        line-height: 20px;
+    }
+
+    .unexpand {
+        font-size: calc(1vw + 0.61em);
+        margin-top: 3.1%
+    }
 }
 
 @media screen and (max-width: 632.98px) {
@@ -1263,11 +1418,11 @@ img.spec {
     }
 
     .carousel-wrapper {
-        max-height: 280px;
+        max-height: 300px;
         position: relative;
-        max-width: 500px;
+        width: 95%;
         display: block;
-        margin: 50px auto ;
+        margin: 10px auto ;
         border: 6px solid black;
     }
 
@@ -1319,6 +1474,17 @@ img.spec {
         text-align: left;
         margin-top: 10px;
         margin-left: 4px;
+    }
+
+    .special > .row > .col1 h2 {
+        font-size: calc(1vw + 0.7em);
+        line-height: 5px;
+    }
+
+    .special > .row > .col2 p {
+        font-size: calc(0.6vw + 0.4em);
+        padding: 5px;
+        margin: 5px;
     }
 
 }
@@ -1407,11 +1573,11 @@ img.spec {
     }
 
     .carousel-wrapper {
-        max-height: 225px;
+        max-height: 290px;
         position: relative;
-        max-width: 400px;
+        width: 95%;
         display: block;
-        margin: 50px auto ;
+        margin: 10px auto ;
         border: 6px solid black;
     }
 
@@ -1581,11 +1747,12 @@ img.spec {
     }
 
     .carousel-wrapper {
-        max-height: 180px;
+        max-height: 185px;
         position: relative;
-        max-width: 320px;
+        width: 95%;
         display: block;
-        margin: 50px auto ;
+        margin: 10px auto ;
+        margin-bottom: 20px;
         border: 6px solid black;
     }
 
@@ -1691,6 +1858,17 @@ img.spec {
         font-size: 15px;
         text-align: left;
         margin-top: 10px;
+    }
+
+    .special > .row > .col1 h2 {
+        font-size: calc(1vw + 0.5em);
+        line-height: 3px;
+    }
+
+    .special > .row > .col2 p {
+        font-size: calc(0.6vw + 0.28em);
+        padding: 5px;
+        margin: 5px;
     }
 }
 
