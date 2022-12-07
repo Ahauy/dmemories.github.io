@@ -430,7 +430,7 @@ img {
 
 .special > .row > .col1 {
     width: 45%;
-    margin: 2.5%;
+    margin: 5% 2.5% 2.5%;
     box-shadow: 0px 0px 10px 2px gray;
     transition: all 0.13s ease-in-out;
 }
@@ -456,27 +456,37 @@ img {
 }
 
 .special > .row > .col2 {
-    width: 45%;
-    padding: 2.5%;
+    width: 48.5%;
+    padding: .5%;
+    margin-top: 6%;
 }
 
-.tombolexpand{
+.tombolexpand {
+    height: 50px;
+    width: 50px;
     font-size: 20px;
     background-color: white;
-    border-radius: 15px;
-    border: 2px solid white;
+    border-radius: 15px; 
     cursor: pointer;
+    margin: 2% auto;
+}
+
+.textexpand {
     margin-right: 1%;
     margin-bottom: 1%;
     margin-left: auto;
+    font-size: 20px;
+    background-color: white;
+    border-radius: 15px; 
+    cursor: pointer;
 }
 
-.tombolexpand:focus {
+.tombolexpand:checked {
     font-size: 20.3px;
     text-decoration: underline;
 }
 
-.tombolexpand:focus + .hidespec {
+.tombolexpand:checked + .hidespec {
     display: block;
     height: 100%;
 }
@@ -943,14 +953,49 @@ img.spec {
     background-size: cover;
 }
 
-*:target ~ .item-1{
+.item-9 {
+    z-index: 2;
+    opacity: 1;
+    background: url('photo/spec/spec2/spec%20(1).jpg');
+    background-size: cover;
+}
+
+.item-10 {
+    background: url('photo/spec/spec2/spec%20(2).jpg');
+    background-size: cover;
+}
+
+.item-11 {
+    background: url('photo/spec/spec2/spec%20(3).jpg');
+    background-size: cover;
+}
+
+.item-12 {
+    background: url('photo/spec/spec2/spec%20(4).jpg');
+    background-size: cover;
+}
+
+.item-13 {
+    background: url('photo/spec/spec2/spec%20(5).jpg');
+    background-size: cover;
+}
+
+*:target ~ .item-1 {
     opacity: 0;
 }
 #item-1:target ~ .item-1 {
     opacity: 1;
 
 }
-#item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8 {
+
+*:target ~ .item-9 {
+    opacity: 0;
+}
+#item-1:target ~ .item-9 {
+    opacity: 1;
+
+}
+#item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8, #item-10:target ~ .item-100, #item-11:target ~ .item-11, #item-12:target ~ .item-12, #item-13:target ~ .item-13 {
     z-index: 3;
     opacity: 1;
 }
@@ -1867,9 +1912,9 @@ img.spec {
     }
 
     .special > .row > .col2 p {
-        font-size: calc(0.6vw + 0.28em);
-        padding: 5px;
-        margin: 5px;
+        font-size: calc(1vw + 0.21em);
+        padding: 2.5px;
+        margin: 2.5px;
     }
 }
 
