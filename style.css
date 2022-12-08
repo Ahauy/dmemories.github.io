@@ -499,7 +499,6 @@ img {
     border-radius: 15px; 
     cursor: pointer;
     margin: auto;
-    box-shadow: -0px 2px 10px 0px gray;
 }
 
 .tombolexpandvideo {
@@ -510,7 +509,6 @@ img {
     border-radius: 15px; 
     cursor: pointer;
     margin: auto;
-    box-shadow: -0px 2px 10px 0px gray;
     margin-top: 0;
 }
 
@@ -1465,6 +1463,14 @@ img.spec {
         margin: auto;
         box-shadow: -0px 2px 10px 0px gray;
         margin-top: 0;
+    }
+
+    .tombolexpandphoto:checked ~ .coltextexpandphoto {
+        border-bottom: 3px solid black;
+    }
+
+    .tombolexpandvideo:checked ~ .coltextexpandvideo {
+        border-bottom: 3px solid black;
     }
 }
 
