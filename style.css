@@ -461,42 +461,91 @@ img {
     margin-top: 6%;
 }
 
-.tombolexpand {
-    height: 50px;
-    width: 50px;
+.coltextexpandphoto {
+    width: 50%;
+    transition: all .05s ease;
+}
+
+.coltextexpandvideo {
+    width: 50%;
+    transition: all .05s ease;
+}
+
+.coltextexpandphoto p {
+    font-size: 25px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.coltextexpandvideo p {
+    font-size: 25px;
+    font-family: "Segoe UI",Arial,sans-serif;
+    font-weight: 400;
+    color: gray;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.tombolexpandphoto {
+    height: 40px;
+    width: 50%;
     font-size: 20px;
     background-color: white;
     border-radius: 15px; 
     cursor: pointer;
-    margin: 2% auto;
+    margin: auto;
+    box-shadow: -0px 2px 10px 0px gray;
 }
 
-.textexpand {
-    margin-right: 1%;
-    margin-bottom: 1%;
-    margin-left: auto;
+.tombolexpandvideo {
+    height: 40px;
+    width: 50%;
     font-size: 20px;
     background-color: white;
     border-radius: 15px; 
     cursor: pointer;
+    margin: auto;
+    box-shadow: -0px 2px 10px 0px gray;
+    margin-top: 0;
 }
 
-.tombolexpand:checked {
-    font-size: 20.3px;
-    text-decoration: underline;
-}
-
-.tombolexpand:checked + .hidespec {
+.tombolexpandphoto:checked ~ .hidespecphoto {
     display: block;
     height: 100%;
 }
 
+.tombolexpandphoto:checked ~ .coltextexpandphoto {
+    border-bottom: 5px solid black;
+}
+
+.tombolexpandvideo:checked ~ .hidespecvideo {
+    display: block;
+    height: 100%;
+}
+
+.tombolexpandvideo:checked ~ .coltextexpandvideo {
+    border-bottom: 5px solid black;
+}
+
 /* hide special */
 
-.hidespec {
+.hidespecphoto {
     display: none;
     margin: 0 1.9%;
     transition: all 5s ease;
+    width: 100%;
+}
+
+.hidespecvideo {
+    display: none;
+    margin: 0 1.9%;
+    transition: all 5s ease;
+    width: 100%;
 }
 
 .row > .col1spec {
@@ -538,19 +587,6 @@ img {
     margin: 0;
     margin-bottom: 2%;
 }
-
-.unexpand {
-    background: white;
-    border: 2px solid white;
-    font-size: 20px;
-    margin: 1%;
-    margin-right: 1%;
-    margin-bottom: 1%;
-    margin-left: auto;
-    cursor: pointer;
-}
-
-
 
 nav {
     width: 100%;
@@ -918,6 +954,7 @@ img.spec {
 [id^= "item"] {
     display: none;
 }
+
 .item-1 {
     z-index: 2;
     opacity: 1;
@@ -952,31 +989,34 @@ img.spec {
     background: url('photo/spec/spec1/spec%20(8).jpg');
     background-size: cover;
 }
-
 .item-9 {
     z-index: 2;
     opacity: 1;
-    background: url('photo/spec/spec2/spec%20(1).jpg');
+    background: url('photo/spec/spec2/spec1.jpeg');
     background-size: cover;
 }
-
 .item-10 {
-    background: url('photo/spec/spec2/spec%20(2).jpg');
+    background: url('photo/spec/spec2/spec2.jpg');
     background-size: cover;
 }
-
 .item-11 {
-    background: url('photo/spec/spec2/spec%20(3).jpg');
+    background: url('photo/spec/spec2/spec3.jpeg');
     background-size: cover;
 }
-
 .item-12 {
-    background: url('photo/spec/spec2/spec%20(4).jpg');
+    background: url('photo/spec/spec2/spec4.jpeg');
     background-size: cover;
 }
-
 .item-13 {
-    background: url('photo/spec/spec2/spec%20(5).jpg');
+    background: url('photo/spec/spec2/spec5.jpeg');
+    background-size: cover;
+}
+.item-14 {
+    background: url('photo/spec/spec2/spec6.jpg');
+    background-size: cover;
+}
+.item-15 {
+    background: url('photo/spec/spec2/spec7.jpg');
     background-size: cover;
 }
 
@@ -985,19 +1025,23 @@ img.spec {
 }
 #item-1:target ~ .item-1 {
     opacity: 1;
-
 }
 
 *:target ~ .item-9 {
     opacity: 0;
 }
-#item-1:target ~ .item-9 {
+#item-9:target ~ .item-9 {
     opacity: 1;
-
 }
-#item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8, #item-10:target ~ .item-100, #item-11:target ~ .item-11, #item-12:target ~ .item-12, #item-13:target ~ .item-13 {
+
+#item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8 {
     z-index: 3;
     opacity: 1;
+}
+
+#item-10:target ~ .item-10, #item-11:target ~ .item-11, #item-12:target ~ .item-12, #item-13:target ~ .item-13, #item-14:target ~ .item-14, #item-15:target ~ .item-15 {
+    z-index: 3;
+    opacity: 1;  
 }
 
 @media screen and (max-width: 991.98px) {
@@ -1249,7 +1293,7 @@ img.spec {
     }
 
     .carousel-item {
-        position: absolute-;
+        position: absolute;
         top: 0;
         bottom: 0;
         left: 0;
@@ -1259,6 +1303,13 @@ img.spec {
     }
 
     .item-1 {
+        z-index: 2;
+        opacity: 1;
+        background: url('photo/spec/spec1/spec%20(1).jpg');
+        background-size: cover;
+    }
+
+    .item-9 {
         z-index: 2;
         opacity: 1;
         background: url('photo/spec/spec1/spec%20(1).jpg');
@@ -1373,9 +1424,47 @@ img.spec {
         line-height: 20px;
     }
 
-    .unexpand {
-        font-size: calc(1vw + 0.61em);
-        margin-top: 3.1%
+    .coltextexpandphoto p {
+        font-size: 3vw;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 400;
+        color: gray;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .coltextexpandvideo p {
+        font-size: 3vw;
+        font-family: "Segoe UI",Arial,sans-serif;
+        font-weight: 400;
+        color: gray;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .tombolexpandphoto {
+        height: 4.5vw;
+        width: 50%;
+        font-size: 20px;
+        background-color: white;
+        border-radius: 15px; 
+        cursor: pointer;
+        margin: auto;
+        box-shadow: -0px 2px 10px 0px gray;
+    }
+
+    .tombolexpandvideo {
+        height: 4.5vw;
+        width: 50%;
+        font-size: 20px;
+        background-color: white;
+        border-radius: 15px; 
+        cursor: pointer;
+        margin: auto;
+        box-shadow: -0px 2px 10px 0px gray;
+        margin-top: 0;
     }
 }
 
