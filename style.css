@@ -498,6 +498,7 @@ img {
     background-color: white;
     border-radius: 15px; 
     cursor: pointer;
+    box-shadow: -0px 2px 10px 0px gray;
     margin: auto;
 }
 
@@ -509,6 +510,7 @@ img {
     border-radius: 15px; 
     cursor: pointer;
     margin: auto;
+    box-shadow: -0px 2px 10px 0px gray;
     margin-top: 0;
 }
 
@@ -1450,7 +1452,6 @@ img.spec {
         border-radius: 15px; 
         cursor: pointer;
         margin: auto;
-        box-shadow: -0px 2px 10px 0px gray;
     }
 
     .tombolexpandvideo {
@@ -1461,7 +1462,6 @@ img.spec {
         border-radius: 15px; 
         cursor: pointer;
         margin: auto;
-        box-shadow: -0px 2px 10px 0px gray;
         margin-top: 0;
     }
 
