@@ -1,4 +1,4 @@
-# website-sederhana
+#dmemories.github.io
 
 Website portofolio sederhana dengan menggunakan HTML, CSS dan Javascript
 
