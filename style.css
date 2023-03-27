@@ -7,6 +7,8 @@
 html {
     width: -webkit-fill-available;
     width: 100%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -19,6 +21,133 @@ body {
     min-width: 100vw;
     width: -webkit-fill-available;
 }
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: rgba(0, 0, 0, 0.83);
+    z-index: 5;
+}
+
+.navbar {
+    overflow: hidden;
+}
+
+.navbar a {
+    float: right;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown .dropbtn .kebawah {
+    width: 130px;
+    padding-top: 4px;
+    cursor: pointer;
+}
+
+.dropdown .dropbtn .kebawah:hover {
+    background-color: #424242;
+    transition: all .2s ease-in-out;
+}
+
+.dropdown .dropbtn .kebawah img {
+    width: 40px;
+    align-content: center;
+    margin: 0;
+    padding-top: 2.5px;
+    padding-bottom: 2px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    width: 130px;
+    background-color: rgba(0, 0, 0, 0.83);
+    float: none;
+    color: white;
+    padding: 16px 0;
+    letter-spacing: 0.8px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dropdown-content a:hover {
+    background-color: #424242;
+    transition: all .2s ease-in-out;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.utama {
+    width: 100%;
+    height: calc(100vh - 59px);
+    background-image: url(witho.jpg);
+    background-position: center;
+}
+
+.utama h2 {
+    top: calc(50% - 60px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid #212121;
+    position: relative;
+    max-width: 75%;
+    width: 550px;
+    padding: 15px 0;
+    font-family: sans-serif;
+    color: #212121;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 3.1em;
+    box-shadow: -0px 3px 10px 0px #B0B0B0;
+}
+
+.utama p {
+    top: calc(50% - 82px);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+    max-width: 75%;
+    width: 85%;
+    padding: 15px 0;
+    font-family: sans-serif;
+    color: #212121;
+    letter-spacing: 4.5px;
+    text-transform: uppercase;
+    font-size: 1.15em;
+    text-align: center;
+}
+
 
 .wrapper {
     width: 1100px;
@@ -51,8 +180,7 @@ img {
 }
 
 .logo a {
-    margin-top: 10px
-    margin-bottom: 15px;
+    padding-top: 2px;
     font-size: 45px;
     font-weight: 800;
     float: left;
@@ -69,8 +197,8 @@ img {
 }
 
 #top {
-    background-color: white;
-    padding: 3em 0 3em 0;
+    background-color: #F0F0F0;
+    padding: 2.5em 0 2.5em 0;
     text-align: left;
     box-shadow: -0px 2px 10px 0px gray;
 }
@@ -80,6 +208,7 @@ img {
     text-align: left;
     box-shadow: -0px 2px 10px 0px #adadad;
     padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 #artabout {
@@ -90,6 +219,7 @@ img {
 
 .row h3 {
     font-size: 50px;
+    line-height: 25px;
     color: black;
     margin-top: 25px;
     font-family: "Segoe UI",Arial,sans-serif;
@@ -420,6 +550,64 @@ img {
     font-weight: 500;
 }
 
+/* grad */
+
+.grad {
+    background-color: #F0F0F0;
+    width: 100%;
+}
+
+.grad > .row h3 {
+    margin: 0;
+    font-family: serif;
+    text-transform: uppercase;
+    font-weight: 550;
+    letter-spacing: 5px;
+    margin-bottom: 1.33%;
+    font-size: 4vw;
+}
+
+.grad > .row > .col1 {
+    width: 40%;
+    min-height: 44%;
+    box-shadow: 0px 0px 10px 2px gray;
+    transition: all 0.13s ease-in-out;
+    background-color: white;
+}
+
+.grad > .row > .col1 img {
+    width: 90%;
+    margin: 5%;
+    margin-bottom: 0
+}
+
+.grad > .row > .col1 h2 {
+    color: black;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    text-align: center;
+    line-height: 35px;
+    font-weight: 700;
+    margin-top: 7.5%;
+}
+
+.grad > .row > .col2 {
+    width: 50%;
+    height: 44%;
+    margin: auto;
+    margin-right: 0;
+    padding-top: 0;
+    
+}
+
+.grad > .row > .col2 button {
+    width: 50%;
+    margin: 2.2% 25%;
+    padding: 3.5% 12.55%;
+    font-size: 1.9vw;
+}
+
 /* special */
 
 .special {
@@ -451,7 +639,7 @@ img {
     font-family: "Segoe UI",Arial,sans-serif;
     font-size: 35px;
     text-align: center;
-    line-height: 15px;
+    line-height: 35px;
     margin-top: 2.5%;
 }
 
@@ -586,45 +774,6 @@ img {
     margin-bottom: 2%;
 }
 
-nav {
-    width: 100%;
-    margin: auto;
-    display: flex;
-    line-height: 50px;
-    position: sticky;
-    position: -webkit-sticky; 
-    top: 0;
-    background: #181818;
-    z-index: 5;
-    box-shadow: 2px 2px 50px 5px white;
-}
-
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-nav ul li {
-    float: left;
-}
-
-nav ul li a {
-    font-size: 23px;
-    border-radius: 8px;
-    color: white;
-    font-weight: bolder;
-    text-align: center;
-    padding: 5px 20px 5px 20px;
-    text-decoration: none;
-}
-
-nav ul li a:hover {
-    background-color: #383838;
-    transition: background-color .2s ease-in-out;
-}
-
 .kolom {
     margin-top: 25px;
     margin-bottom: 25px;
@@ -647,7 +796,7 @@ h2 {
 }
 
 p {
-    font-weight: 900;
+    font-weight:    900;
     margin: 5px 10px 5px 11px;
     padding: 10px 0px 10px 0px;
 }
@@ -778,7 +927,7 @@ p1 {
     margin-top: 25px;
     background: #43B3E0;
     font-size: 30px;
-    padding: 20px 50px 20px 50px;
+    padding: 20px 60px 20px 60px;
     border-radius: 15px;
     border: 2px solid #d3d3d3;
     text-align: center;
@@ -1055,12 +1204,52 @@ img.spec {
         min-height: 100vh;
         min-width: 100vw;
     }
+
+    .utama {
+        width: 100%;
+        height: calc(100vh - 59px);
+        background-image: url(witho.jpg);
+    }
+
+    .utama h2 {
+        top: calc(50% - 60px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 5px solid #212121;
+        position: relative;
+        max-width: 75%;
+        width: 550px;
+        padding: 15px 0;
+        font-family: sans-serif;
+        color: #212121;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-size: 2.8em;
+        box-shadow: -0px 3px 10px 0px #B0B0B0;
+    }
+
+    .utama p {
+        top: calc(50% - 82px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        max-width: 75%;
+        width: 85%;
+        padding: 15px 0;
+        font-family: sans-serif;
+        color: #212121;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-size: 0.9em;
+        text-align: center;
+    }
+
     
     .logo a {
         font-size: 40px;
         display: block;
-        width: 100%;
-        text-align: center; 
+        width: auto;
+        text-align: left; 
     }
 
     img {
@@ -1078,21 +1267,6 @@ img.spec {
         width: 100%;
     }
     
-    nav .menu {
-        width: 100%;
-        margin: 0;
-    }
-
-    nav .menu ul {
-        text-align: center;
-        margin: auto;
-        line-height: 35px;
-    }
-
-    nav .menu ul li {
-        display: inline-block;
-        float: none;
-    }
 
     section {
         display: block;
@@ -1347,6 +1521,10 @@ img.spec {
         margin-left: 4px;
     }
 
+    .row h3 {
+        font-size: calc(6vw + 0.72em);
+    }
+
     .row > .colpesan > .box button {
         width: 95%;
         height: 100px;
@@ -1402,6 +1580,41 @@ img.spec {
     .special > .row > .col2 p {
         font-size: calc(1vw + 0.5em);
     }
+
+    .grad > .row h3 {
+        margin: 0;
+        font-family: serif;
+        text-transform: uppercase;
+        font-weight: 550;
+        letter-spacing: 5px;
+        margin-bottom: 1.33%;
+        font-size: calc(5vw + 0.62em);
+    }
+
+    .grad > .row > .col1 {
+        width: 45%;
+        min-height: 46%;
+        box-shadow: 0px 0px 10px 2px gray;
+        transition: all 0.13s ease-in-out;
+        background-color: white;
+    }
+
+    .grad > .row > .col1 h2 {
+        font-size: calc(1vw + 1em);     
+    }
+    
+    .grad > .row > .col2 p {
+        font-size: calc(1vw + 0.4em);
+        text-align: left;
+    }
+
+    .grad > .row > .col2 button {
+        width: 50%;
+        margin: 1.8% 25%;
+        padding: 2.5% 11.55%;
+        font-size: 3.9vw;
+    }
+
 
     .tombolexpand {
         font-size: calc(1vw + 0.5em);
@@ -1489,8 +1702,8 @@ img.spec {
     .logo a {
         font-size: 40px;
         display: block;
-        width: 100%;
-        text-align: center;
+        width: auto;
+        text-align: left;
     }
 
     img {
@@ -1506,22 +1719,6 @@ img.spec {
 
     nav {
         width: 100%;
-    }
-    
-    nav .menu {
-        width: 100%;
-        margin: 0;
-    }
-
-    nav .menu ul {
-        text-align: center;
-        margin: auto;
-        line-height: 35px;
-    }
-
-    nav .menu ul li {
-        display: inline-block;
-        float: none;
     }
 
     section {
@@ -1616,13 +1813,23 @@ img.spec {
 
     .special > .row > .col1 h2 {
         font-size: calc(1vw + 0.7em);
-        line-height: 5px;
+        line-height: 15px;
     }
 
     .special > .row > .col2 p {
         font-size: calc(0.6vw + 0.4em);
         padding: 5px;
         margin: 5px;
+    }
+
+    .grad > .row > .col1 h2 {
+        font-size: calc(1vw + 0.7em);
+    }
+
+    .grad > .row > .col2 p {
+        font-size: calc(0.6vw + 0.4em);
+        padding: 2px;
+        margin: 2px;
     }
 
 }
@@ -1642,9 +1849,9 @@ img.spec {
     }
 
     .logo a {
-        font-size: 38zpx;
+        font-size: 38px;
         display: block;
-        width: 100%;
+        width: auto;
         text-align: center;
     }
 
@@ -1661,22 +1868,6 @@ img.spec {
 
     nav {
         width: 100%;
-    }
-    
-    nav .menu {
-        width: 100%;
-        margin: 0;
-    }
-
-    nav .menu ul {
-        text-align: center;
-        margin: auto;
-        line-height: 35px;
-    }
-
-    nav .menu ul li {
-        display: inline-block;
-        float: none;
     }
 
     section {
@@ -1785,12 +1976,78 @@ img.spec {
         min-width: 100vw;
     }
 
+    .dropdown .dropbtn .kebawah img {
+        width: 30px;
+        align-content: center;
+        margin: 0;
+        padding-top: 2.5px;
+        padding-bottom: 2px;
+    }
+
+    .dropdown .dropbtn .kebawah {
+        width: 90px;
+        padding-top: 4px;
+        cursor: pointer;
+    }
+
+    .dropdown-content a {
+        width: 90px;
+        background-color: rgba(0, 0, 0, 0.83);
+        float: none;
+        color: white;
+        padding: 16px 0;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .utama {
+        width: 100%;
+        height: calc(100vh - 59px);
+        background-image: url(eeeeepot.jpg);
+        background-size: 100vw, 100vh;
+        background-position: center;
+    }
+
+    .utama h2 {
+        top: calc(50% - 60px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 5px solid #212121;
+        position: relative;
+        max-width: 75%;
+        width: 550px;
+        padding: 15px 0;
+        font-family: sans-serif;
+        color: #212121;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-size: 8.5vw;
+        box-shadow: -0px 3px 10px 0px #B0B0B0;
+    }
+
+    .utama p {
+        top: calc(50% - 82px);
+        left: 48%;
+        transform: translate(-50%, -50%);
+        position: relative;
+        max-width: 80%;
+        padding: 15px 0;
+        font-family: sans-serif;
+        color: #212121;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-size: 0.84em;
+        text-align: center;
+    }
+    
     .logo a {
         font-size: 30px;
-        line-height: 50px;
+        line-height: 45px;
         max-height: 40px;
         display: block;
-        width: 100%;
+        width: auto;
         text-align: center;
     }
 
@@ -1807,32 +2064,6 @@ img.spec {
 
     nav {
         width: 100%;
-    }
-    
-    nav .menu {
-        width: 100%;
-        margin: 0;
-    }
-
-    nav .menu ul {
-        text-align: center;
-        margin: auto;
-        line-height: 40px;
-    }
-
-    nav .menu ul li {
-        display: inline-block;
-        float: none;
-    }
-
-    nav ul li a {
-        font-size: 16px;
-        border-radius: 8px;
-        color: white;
-        font-weight: bolder;
-        text-align: center;
-        padding: 5px 9px 5px 9px;
-        text-decoration: none;
     }
 
     section {
@@ -1944,7 +2175,7 @@ img.spec {
     }
 
     .row > .col5 button h3{
-        font-size: 25px;
+        font-size: 7vw;
         margin-top: 5px;
         margin-bottom: 0px;
         font-family: "Segoe UI",Arial,sans-serif;
@@ -1952,7 +2183,7 @@ img.spec {
     }
 
     .row > .col6 button h3{
-        font-size: 25px;
+        font-size: 7vw;
         margin-top: 5px;
         margin-bottom: 0px;
         font-family: "Segoe UI",Arial,sans-serif;
@@ -1960,7 +2191,7 @@ img.spec {
     }
 
     .row > .col7 button h3{
-        font-size: 25px;
+        font-size: 7vw;
         margin-top: 5px;
         margin-bottom: 0px;
         font-family: "Segoe UI",Arial,sans-serif;
@@ -1968,7 +2199,7 @@ img.spec {
     }
 
     .row > .col5 button p{
-        font-size: 12px;
+        font-size: 3.1vw;
         margin: 0;
         font-style: italic;
         color: #4f4f4f;
@@ -1976,7 +2207,7 @@ img.spec {
     }
 
     .row > .col6 button p{
-        font-size: 12px;
+        font-size: 3.1vw;
         margin: 0;
         margin-top: 3px;
         font-style: italic;
@@ -1985,7 +2216,7 @@ img.spec {
     }
 
     .row > .col7 button p{
-        font-size: 12px;
+        font-size: 3.1vw;
         margin: 0;
         font-style: italic;
         color: #4f4f4f;
@@ -1999,8 +2230,8 @@ img.spec {
     }
 
     .special > .row > .col1 h2 {
-        font-size: calc(1vw + 0.5em);
-        line-height: 3px;
+        font-size: calc(1vw + 0.44em);
+        line-height: 10px;
         margin: 8% 0;
     }
 
@@ -2009,6 +2240,25 @@ img.spec {
         padding: 2.5px;
         margin: 2.5px;
     }
+
+    .grad > .row > .col1 h2 {
+        font-size: calc(1vw + 0.5em);
+        line-height: 3px;
+        margin-top: 10%;
+    }
+
+    .grad > .row > .col2 p {
+        font-size: calc(1vw + 0.3em);
+        padding: 1.5px;
+        margin: 1.5px;
+        font-weight: 900;
+    }
+
+    .grad > .row > .col2 button {
+        border-radius: 7.5px;
+        font-size: 3.5vw;
+    }
+
 }
 
 
