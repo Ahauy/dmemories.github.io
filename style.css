@@ -22,6 +22,8 @@ body {
     width: -webkit-fill-available;
 }
 
+/* NAV */
+
 nav {
     width: 100%;
     margin: auto;
@@ -474,6 +476,184 @@ img {
     width: 100%;
 }
 
+/* about */
+
+.row .about {
+    width: 100%;
+    z-index: 100;
+}
+
+
+.row .about h3 {
+    font-size: 7.1vw;
+    color: rgba(40, 40, 40, 0.64);
+    margin: 10% 0;
+    margin-bottom: 13%;
+    font-weight: 550;
+    letter-spacing: 5px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+input[type="radio"] + label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-size: 1.5vw;
+    width: 18%;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    transform: translate(-100%, -165%);
+    transition: all 0.15s ease-in-out;
+}
+
+input[type="radio"]:checked + label {
+    background-color: #F0F0F0;
+    border-bottom: 3px solid #00FBFF;
+    
+}
+
+#aboutsembunyi {
+    visibility: hidden;
+    display: block;
+}
+
+#aboutsembunyi2 {
+    display: none;
+    visibility: hidden;
+}
+
+#about1 {
+    width: 1100px;
+    overflow: hidden;
+    height: auto;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    transition: all 500ms ease;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#about2 {
+    width: 1100px;
+    overflow: hidden;
+    height: auto;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    transition: all 500ms ease;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#about3 {
+    width: 1100px;
+    overflow: hidden;
+    height: auto;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%);
+    transition: all 500ms ease;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+#showDivYes1:checked ~ #about1 {
+    animation-name: slideFromRight;
+}
+
+#showDivYes1:checked ~ #about2 {
+    animation-name: slideFromLeft;
+}
+
+#showDivYes1:checked ~ #about3 {
+    animation-name: slideFromLeft;
+}
+
+#showDivYes2:checked ~ #about2 {
+    animation-name: slideFromRight;
+}
+
+#showDivYes2:checked ~ #aboutsembunyi {
+    display: none;
+}
+
+#showDivYes2:checked ~ #aboutsembunyi2 {
+    display: block;
+}
+
+#showDivYes2:checked ~ #about1 {
+    animation-name: slideFromLeft;
+}
+
+#showDivYes2:checked ~ #about3 {
+    animation-name: slideFromLeft;
+}
+
+#showDivYes3:checked ~ #about3 {
+    animation-name: slideFromRight;
+}
+
+#showDivYes3:checked ~ #about2 {
+    animation-name: slideFromLeft;
+}
+
+#showDivYes3:checked ~ #about1 {
+    animation-name: slideFromLeft;
+}
+
+#showDivYes1:checked ~ #about3 {
+    opacity: 0
+}
+
+#showDivYes2:checked ~ #about3 {
+    opacity: 0;   
+}
+
+#showDivYes1:checked ~ #about2 {
+    opacity: 0
+}
+
+#showDivYes3:checked ~ #about2 {
+    opacity: 0;   
+}
+
+#showDivYes3:checked ~ #about1 {
+    opacity: 0
+}
+
+#showDivYes2:checked ~ #about1 {
+    opacity: 0;   
+}
+
+@keyframes slideFromRight {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slideFromLeft {
+  from {
+    left: 50%;
+  }
+  to {
+    left: -50%;
+  }
+}
+
 /* best */
 
 .best > .row > .col5 {
@@ -563,7 +743,7 @@ img {
     text-transform: uppercase;
     font-weight: 550;
     letter-spacing: 5px;
-    margin-bottom: 1.33%;
+    margin-bottom: 4%;
     font-size: 4vw;
 }
 
@@ -1541,6 +1721,79 @@ img.spec {
         border: 2px solid #c4c4c4;
     }
 
+    /* about */
+
+    .row .about h3 {
+        font-size: calc(6.8vw + 1.4em);
+        color: rgba(40, 40, 40, 0.64);
+        margin: 10% 0;
+        margin-bottom: 13%;
+        font-weight: 550;
+        letter-spacing: 5px;
+    }
+
+
+    input[type="radio"] + label {
+        display: inline-block;
+        cursor: pointer;
+        padding: 10px;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 3.2vw;
+        width: 20%;
+        position: relative;
+        top: 50%;
+        left: 37%;
+        transform: translate(-100%, -170%);
+        transition: all 0.15s ease-in-out;
+    }
+
+    input[type="radio"]:checked + label {
+        background-color: #F0F0F0;
+        border-bottom: 2.5px solid #00FBFF;
+    }
+
+    #about1 {
+        width: 90%;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+        position: absolute;
+        top: 40%;
+        transform: translateX(-50%);
+        transition: all 500ms ease;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    #about2 {
+        width: 90%;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+        position: absolute;
+        top: 40%;
+        transform: translateX(-50%);
+        transition: all 500ms ease;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    #about3 {
+        width: 90%;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+        position: absolute;
+        top: 40%;
+        transform: translateX(-50%);
+        transition: all 500ms ease;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+
     /* best */
     
     .best > .row > .col5 {
@@ -1587,7 +1840,7 @@ img.spec {
         text-transform: uppercase;
         font-weight: 550;
         letter-spacing: 5px;
-        margin-bottom: 1.33%;
+        margin-bottom: 4%;
         font-size: calc(5vw + 0.62em);
     }
 
@@ -1832,6 +2085,45 @@ img.spec {
         margin: 2px;
     }
 
+    #about1 {
+        width: 90%;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+        position: absolute;
+        top: 30%;
+        transform: translateX(-50%);
+        transition: all 500ms ease;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    #about2 {
+        width: 90%;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+        position: absolute;
+        top: 30%;
+        transform: translateX(-50%);
+        transition: all 500ms ease;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    #about3 {
+        width: 90%;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+        position: absolute;
+        top: 30%;
+        transform: translateX(-50%);
+        transition: all 500ms ease;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
 }
 
 @media screen and (max-width: 582.98px) {
@@ -1868,6 +2160,21 @@ img.spec {
 
     nav {
         width: 100%;
+    }
+
+    #top {
+        background-color: #F0F0F0;
+        padding: 2em 0 2em 0;
+        text-align: left;
+        box-shadow: -0px 2px 10px 0px gray;
+    }
+
+    #top2 {
+        padding: 2em 0 2em 0;
+        text-align: left;
+        box-shadow: -0px 2px 10px 0px #adadad;
+        padding-bottom: 25px;
+        padding-top: 25px;
     }
 
     section {
@@ -1959,6 +2266,45 @@ img.spec {
     .best > .row > .col6 h3 {
         font-size: 15px;
         line-height: 20px;
+    }
+
+    #about1 {
+        width: 90%;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+        position: absolute;
+        top: 25%;
+        transform: translateX(-50%);
+        transition: all 500ms ease;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    #about2 {
+        width: 90%;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+        position: absolute;
+        top: 25%;
+        transform: translateX(-50%);
+        transition: all 500ms ease;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    #about3 {
+        width: 90%;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+        position: absolute;
+        top: 25%;
+        transform: translateX(-50%);
+        transition: all 500ms ease;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
     }
 }
 
@@ -2241,22 +2587,105 @@ img.spec {
         margin: 2.5px;
     }
 
+    .grad > .row > .col1 {
+        width: 74%;
+        margin: 2% 13%;
+        min-height: 44%;
+        box-shadow: 0px 0px 10px 2px gray;
+        transition: all 0.13s ease-in-out;
+        background-color: white;
+    }
+
+    .grad > .row > .col1 img {
+        width: 90%;
+        margin: 5%;
+        margin-bottom: 0
+    }
+
     .grad > .row > .col1 h2 {
-        font-size: calc(1vw + 0.5em);
-        line-height: 3px;
+        color: black;
+        font-family: sans-serif;
+        text-transform: uppercase;
+        font-size: 25px;
+        text-align: center;
+        line-height: 35px;
+        font-weight: 700;
+        margin-top: 7.5%;
+    }
+
+    .grad > .row > .col2 {
+        width: 100%;
+        text-align: center;
+        margin: auto;
+        margin-right: 0;
+        padding-top: 0;
+
+    }
+
+    .grad > .row > .col2 button {
+        width: 50%;
+        margin: 2.2% 25%;
+        padding: 3.5% 12.55%;
+        font-size: 1.9vw;
+    }
+
+    .grad > .row > .col1 h2 {
+        font-size: calc(1vw + 0.67em);
+        color: #505050;
+        line-height: 10px;
         margin-top: 10%;
     }
 
     .grad > .row > .col2 p {
-        font-size: calc(1vw + 0.3em);
+        font-size: calc(2vw + 0.31em);
         padding: 1.5px;
         margin: 1.5px;
         font-weight: 900;
+        text-align: center;
     }
 
     .grad > .row > .col2 button {
-        border-radius: 7.5px;
-        font-size: 3.5vw;
+        border-radius: 15px;
+        font-size: 5vw;
+    }
+    
+    #about1 {
+        width: 90%;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+        position: absolute;
+        top: 25%;
+        transform: translateX(-50%);
+        transition: all 500ms ease;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    #about2 {
+        width: 90%;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+        position: absolute;
+        top: 25%;
+        transform: translateX(-50%);
+        transition: all 500ms ease;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
+    }
+
+    #about3 {
+        width: 90%;
+        overflow: hidden;
+        height: auto;
+        opacity: 1;
+        position: absolute;
+        top: 25%;
+        transform: translateX(-50%);
+        transition: all 500ms ease;
+        animation-duration: 1s;
+        animation-fill-mode: forwards;
     }
 
 }
