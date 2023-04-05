@@ -480,17 +480,22 @@ img {
 
 .row .about {
     width: 100%;
-    z-index: 100;
 }
 
 
 .row .about h3 {
     font-size: 7.1vw;
+    background: url(tes.jpg);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.74);
+    line-height: 100px;
     color: rgba(40, 40, 40, 0.64);
-    margin: 10% 0;
+    margin: 3% 0;
     margin-bottom: 13%;
-    font-weight: 550;
-    letter-spacing: 5px;
+    font-weight: 900;
+    letter-spacing: 7px;
 }
 
 input[type="radio"] {
@@ -2655,7 +2660,9 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 25%;
+        top: 40%;
+        left: 50%;
+        transform: translate(-80%, -80%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
