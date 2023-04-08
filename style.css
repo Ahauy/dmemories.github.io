@@ -490,6 +490,7 @@ img {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.74);
+    -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.64));
     line-height: 150px;
     color: rgba(40, 40, 40, 0.64);
     margin: 2% 0;
@@ -2653,7 +2654,7 @@ img.spec {
         position: relative;
         top: 50%;
         left: 34%;
-        transform: translate(-100%, -175%);
+        transform: translate(-100%, -172%);
         transition: all 0.15s ease-in-out;
     }
 
@@ -2661,9 +2662,10 @@ img.spec {
     .row .about h3 {
         font-size: calc(8vw + 1.3em);
         color: rgba(40, 40, 40, 0.64);
+        -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.44));
         margin-top: 5%;
         margin-bottom: 10%;
-        font-weight: 850;
+        font-weight: 1000;
         letter-spacing: 5px;
         line-height: 50px;
     }
@@ -2678,8 +2680,8 @@ img.spec {
         left: 50%;
         transform: translate(-80%, -80%);
         transform: translateX(-50%);
-        transition: all 500ms ease;
-        animation-duration: 1s;
+        transition: all 250ms ease;
+        animation-duration: 550ms;
         animation-fill-mode: forwards;
     }
 
@@ -2689,12 +2691,12 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 30%;
+        top: 28%;
         left: 50%;
         transform: translate(-80%, -80%);
         transform: translateX(-50%);
-        transition: all 500ms ease;
-        animation-duration: 1s;
+        transition: all 250ms ease;
+        animation-duration: 550ms;
         animation-fill-mode: forwards;
     }
 
@@ -2708,8 +2710,8 @@ img.spec {
         left: 50%;
         transform: translate(-80%, -80%);
         transform: translateX(-50%);
-        transition: all 500ms ease;
-        animation-duration: 1s;
+        transition: all 250ms ease;
+        animation-duration: 550ms;
         animation-fill-mode: forwards;
     }
 
