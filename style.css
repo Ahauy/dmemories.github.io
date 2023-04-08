@@ -484,16 +484,16 @@ img {
 
 
 .row .about h3 {
-    font-size: 7.1vw;
+    font-size: 8vw;
     background: url(tes.jpg);
     background-size: 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1.5px rgba(0, 0, 0, 0.74);
-    line-height: 100px;
+    line-height: 150px;
     color: rgba(40, 40, 40, 0.64);
-    margin: 3% 0;
-    margin-bottom: 13%;
+    margin: 2% 0;
+    margin-bottom: 8%;
     font-weight: 900;
     letter-spacing: 7px;
 }
@@ -1378,7 +1378,7 @@ img.spec {
 
 @media screen and (max-width: 991.98px) {
     .wrapper {
-        width: 90%;
+        width: 95%;
     }
 
     body {
@@ -1729,19 +1729,20 @@ img.spec {
     /* about */
 
     .row .about h3 {
-        font-size: calc(6.8vw + 1.4em);
+        font-size: calc(6.8vw + 3em);
         color: rgba(40, 40, 40, 0.64);
         margin: 10% 0;
         margin-bottom: 13%;
-        font-weight: 550;
+        font-weight: 850;
         letter-spacing: 5px;
+        line-height: 100px;
     }
 
 
     input[type="radio"] + label {
         display: inline-block;
         cursor: pointer;
-        padding: 10px;
+        padding: 10px 20px;
         text-align: center;
         font-weight: bold;
         letter-spacing: 3px;
@@ -1749,7 +1750,7 @@ img.spec {
         width: 20%;
         position: relative;
         top: 50%;
-        left: 37%;
+        left: 35%;
         transform: translate(-100%, -170%);
         transition: all 0.15s ease-in-out;
     }
@@ -1765,7 +1766,9 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 40%;
+        top: 65%;
+        left: 50%;
+        transform: translate(-80%, -80%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
@@ -1778,7 +1781,9 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 40%;
+        top: 65%;
+        left: 50%;
+        transform: translate(-80%, -80%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
@@ -1791,13 +1796,14 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 40%;
+        top: 65%;
+        left: 50%;
+        transform: translate(-80%, -80%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
         animation-fill-mode: forwards;
     }
-
 
     /* best */
     
@@ -2090,13 +2096,25 @@ img.spec {
         margin: 2px;
     }
 
+    .row .about h3 {
+        font-size: calc(5.4vw + 3em);
+        color: rgba(40, 40, 40, 0.64);
+        margin: 10% 0;
+        margin-bottom: 13%;
+        font-weight: 850;
+        letter-spacing: 5px;
+        line-height: 100px;
+    }
+
     #about1 {
         width: 90%;
         overflow: hidden;
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 30%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-80%, -80%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
@@ -2109,7 +2127,9 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 30%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-80%, -80%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
@@ -2122,7 +2142,9 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 30%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-80%, -80%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
@@ -2272,45 +2294,6 @@ img.spec {
         font-size: 15px;
         line-height: 20px;
     }
-
-    #about1 {
-        width: 90%;
-        overflow: hidden;
-        height: auto;
-        opacity: 1;
-        position: absolute;
-        top: 25%;
-        transform: translateX(-50%);
-        transition: all 500ms ease;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-    }
-
-    #about2 {
-        width: 90%;
-        overflow: hidden;
-        height: auto;
-        opacity: 1;
-        position: absolute;
-        top: 25%;
-        transform: translateX(-50%);
-        transition: all 500ms ease;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-    }
-
-    #about3 {
-        width: 90%;
-        overflow: hidden;
-        height: auto;
-        opacity: 1;
-        position: absolute;
-        top: 25%;
-        transform: translateX(-50%);
-        transition: all 500ms ease;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-    }
 }
 
 @media screen and (max-width: 480.98px) {
@@ -2325,6 +2308,10 @@ img.spec {
         background-image: url(https://i.postimg.cc/8cjRKYj8/gambar.png);
         min-height: 100vh;
         min-width: 100vw;
+    }
+    
+    .container {
+        max-width: 100%;
     }
 
     .dropdown .dropbtn .kebawah img {
@@ -2653,6 +2640,33 @@ img.spec {
         border-radius: 15px;
         font-size: 5vw;
     }
+
+    input[type="radio"] + label {
+        display: inline-block;
+        cursor: pointer;
+        padding: 10px 20px;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 3px;
+        font-size: 3.6vw;
+        width: 18%;
+        position: relative;
+        top: 50%;
+        left: 34%;
+        transform: translate(-100%, -175%);
+        transition: all 0.15s ease-in-out;
+    }
+
+
+    .row .about h3 {
+        font-size: calc(8vw + 1.3em);
+        color: rgba(40, 40, 40, 0.64);
+        margin-top: 5%;
+        margin-bottom: 10%;
+        font-weight: 850;
+        letter-spacing: 5px;
+        line-height: 50px;
+    }
     
     #about1 {
         width: 90%;
@@ -2660,7 +2674,7 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 40%;
+        top: 30%;
         left: 50%;
         transform: translate(-80%, -80%);
         transform: translateX(-50%);
@@ -2675,7 +2689,9 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 25%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-80%, -80%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
@@ -2688,7 +2704,9 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 25%;
+        top: 30%;
+        left: 50%;
+        transform: translate(-80%, -80%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
