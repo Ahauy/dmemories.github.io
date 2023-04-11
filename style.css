@@ -110,6 +110,42 @@ nav {
     display: block;
 }
 
+.dropdown .kembali {
+    width: 130px;
+    padding: 4px 0 0 0;
+    cursor: pointer;
+}
+
+.dropdown .kembali img {
+    width: 80px;
+    height: 40px;
+    align-content: center;
+    margin: 0;
+    padding-top: 2.5px;
+    padding-bottom: 2px;
+}
+
+.kembali  {
+    display: flex;
+    height: 2.5em;
+    width: 100px;
+    margin: 10px 5px 5px auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 10px;
+    letter-spacing: 1.6px;
+    transition: all 0.12s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+}
+
+.kembali:hover {
+    transform: translateX(-5px);
+    box-shadow: -0.1px 0px 10px rgba(196, 196, 196, 0.81), -3.2px 0px 10px rgba(196, 196, 196, 0.91);
+}
+
 .utama {
     width: 100%;
     height: calc(100vh - 59px);
@@ -2341,6 +2377,21 @@ img.spec {
         cursor: pointer;
     }
 
+    .dropdown .kembali {
+        width: 100px;
+        padding: 4px 0 0 0;
+        cursor: pointer;
+    }
+
+    .dropdown .kembali img {
+        width: 60px;
+        height: 30px;
+        align-content: center;
+        margin: 0;
+        padding-top: 2.5px;
+        padding-bottom: 2px;
+    }
+
     .utama {
         width: 100%;
         height: calc(100vh - 59px);
@@ -2660,14 +2711,14 @@ img.spec {
 
 
     .row .about h3 {
-        font-size: calc(8vw + 1.3em);
+        font-size: calc(8vw + 3em);
         color: rgba(40, 40, 40, 0.64);
-        -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.44));
-        margin-top: 5%;
-        margin-bottom: 10%;
+        -webkit-filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.54));
+        margin-top: 1%;
+        margin-bottom: 7%;
         font-weight: 1000;
         letter-spacing: 5px;
-        line-height: 50px;
+        line-height: 80px;
     }
     
     #about1 {
@@ -2676,7 +2727,7 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 30%;
+        top: 43%;
         left: 50%;
         transform: translate(-80%, -80%);
         transform: translateX(-50%);
@@ -2691,7 +2742,7 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 28%;
+        top: 41%;
         left: 50%;
         transform: translate(-80%, -80%);
         transform: translateX(-50%);
@@ -2706,7 +2757,7 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 30%;
+        top: 43%;
         left: 50%;
         transform: translate(-80%, -80%);
         transform: translateX(-50%);
