@@ -110,21 +110,6 @@ nav {
     display: block;
 }
 
-.dropdown .kembali {
-    width: 130px;
-    padding: 4px 0 0 0;
-    cursor: pointer;
-}
-
-.dropdown .kembali img {
-    width: 80px;
-    height: 40px;
-    align-content: center;
-    margin: 0;
-    padding-top: 2.5px;
-    padding-bottom: 2px;
-}
-
 .kembali  {
     display: flex;
     height: 2.5em;
@@ -134,15 +119,11 @@ nav {
     justify-content: center;
     border-radius: 10px;
     letter-spacing: 1.2px;
-    background-color: #eeeeee4b;
-    border-radius: 10px;
-    letter-spacing: 1.6px;
     transition: all 0.12s linear;
     cursor: pointer;
     border: none;
     background: #fff;
     box-shadow: -0.1px 0px 10px rgba(196, 196, 196, 0.81);
-
 }
 
 .kembali:hover {
@@ -317,7 +298,6 @@ img {
 }
 
 .logo a {
-    padding-top: 2px;
     font-size: 45px;
     font-weight: 800;
     float: left;
@@ -652,8 +632,6 @@ input[type="radio"] + label {
     top: 50%;
     left: 50%;
     transform: translate(-100%, -160%);
-    left: 40%;
-    transform: translate(-100%, -165%);
     transition: all 0.15s ease-in-out;
 }
 
@@ -699,28 +677,12 @@ input[type="radio"]:checked + label {
     animation-fill-mode: forwards;
 }
 
-#about3 {
-    width: 1100px;
-    overflow: hidden;
-    height: auto;
-    opacity: 1;
-    position: absolute;
-    top: 50%;
-    transform: translateX(-50%);
-    transition: all 500ms ease;
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-}
 
 #showDivYes1:checked ~ #about1 {
     animation-name: slideFromRight;
 }
 
 #showDivYes1:checked ~ #about2 {
-    animation-name: slideFromLeft;
-}
-
-#showDivYes1:checked ~ #about3 {
     animation-name: slideFromLeft;
 }
 
@@ -740,39 +702,7 @@ input[type="radio"]:checked + label {
     animation-name: slideFromLeft;
 }
 
-#showDivYes2:checked ~ #about3 {
-    animation-name: slideFromLeft;
-}
-
-#showDivYes3:checked ~ #about3 {
-    animation-name: slideFromRight;
-}
-
-#showDivYes3:checked ~ #about2 {
-    animation-name: slideFromLeft;
-}
-
-#showDivYes3:checked ~ #about1 {
-    animation-name: slideFromLeft;
-}
-
-#showDivYes1:checked ~ #about3 {
-    opacity: 0
-}
-
-#showDivYes2:checked ~ #about3 {
-    opacity: 0;   
-}
-
 #showDivYes1:checked ~ #about2 {
-    opacity: 0
-}
-
-#showDivYes3:checked ~ #about2 {
-    opacity: 0;   
-}
-
-#showDivYes3:checked ~ #about1 {
     opacity: 0
 }
 
@@ -1584,7 +1514,6 @@ img.spec {
 
     .wrappernav {
         width: 96.5%;
-        width: 95%;
     }
 
     body {
@@ -1945,7 +1874,6 @@ img.spec {
         display: inline-block;
         cursor: pointer;
         padding: 10px 60px;
-        padding: 10px 20px;
         text-align: center;
         font-weight: bold;
         letter-spacing: 3px;
@@ -1954,7 +1882,6 @@ img.spec {
         position: relative;
         top: 50%;
         left: 50%;
-        left: 35%;
         transform: translate(-100%, -170%);
         transition: all 0.15s ease-in-out;
     }
@@ -1980,21 +1907,6 @@ img.spec {
     }
 
     #about2 {
-        width: 90%;
-        overflow: hidden;
-        height: auto;
-        opacity: 1;
-        position: absolute;
-        top: 65%;
-        left: 50%;
-        transform: translate(-80%, -80%);
-        transform: translateX(-50%);
-        transition: all 500ms ease;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-    }
-
-    #about3 {
         width: 90%;
         overflow: hidden;
         height: auto;
@@ -2336,20 +2248,6 @@ img.spec {
         animation-fill-mode: forwards;
     }
 
-    #about3 {
-        width: 90%;
-        overflow: hidden;
-        height: auto;
-        opacity: 1;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-80%, -80%);
-        transform: translateX(-50%);
-        transition: all 500ms ease;
-        animation-duration: 1s;
-        animation-fill-mode: forwards;
-    }
 }
 
 @media screen and (max-width: 582.98px) {
@@ -2535,7 +2433,6 @@ img.spec {
         cursor: pointer;
     }
 
-
     .kembali  {
         display: flex;
         font-size: 12px;
@@ -2550,21 +2447,6 @@ img.spec {
         cursor: pointer;
         border: none;
         background: #fff;
-    }
-
-    .dropdown .kembali {
-        width: 100px;
-        padding: 4px 0 0 0;
-        cursor: pointer;
-    }
-
-    .dropdown .kembali img {
-        width: 60px;
-        height: 30px;
-        align-content: center;
-        margin: 0;
-        padding-top: 2.5px;
-        padding-bottom: 2px;
     }
 
     .utama {
@@ -2868,7 +2750,6 @@ img.spec {
         display: inline-block;
         cursor: pointer;
         padding: 10px 60px;
-        padding: 10px 20px;
         text-align: center;
         font-weight: bold;
         letter-spacing: 3px;
@@ -2877,7 +2758,6 @@ img.spec {
         position: relative;
         top: 50%;
         left: 49%;
-        left: 34%;
         transform: translate(-100%, -172%);
         transition: all 0.15s ease-in-out;
     }
@@ -2915,21 +2795,6 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 41%;
-        left: 50%;
-        transform: translate(-80%, -80%);
-        transform: translateX(-50%);
-        transition: all 250ms ease;
-        animation-duration: 550ms;
-        animation-fill-mode: forwards;
-    }
-
-    #about3 {
-        width: 90%;
-        overflow: hidden;
-        height: auto;
-        opacity: 1;
-        position: absolute;
         top: 43%;
         left: 50%;
         transform: translate(-80%, -80%);
@@ -2940,5 +2805,6 @@ img.spec {
     }
 
 }
+
 
 
