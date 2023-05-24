@@ -65,5 +65,27 @@ p {
 p span {
   display: inline-block;
   width: 100px;
+}
+
+.kembali  {
+    display: flex;
+    height: 2.5em;
+    width: 100px;
+    margin: 10px 5px 5px auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    letter-spacing: 1.2px;
+    transition: all 0.12s linear;
+    cursor: pointer;
+    border: none;
+    background: #fff;
+    box-shadow: -0.1px 0px 10px rgba(196, 196, 196, 0.81);
+}
+
+.kembali:hover {
+    transform: translateX(-5px);
+    box-shadow: -0.1px 0px 10px rgba(196, 196, 196, 0.81), -3.2px 0px 10px rgba(196, 196, 196, 0.91);
+}
   font-weight: 400;
 }
