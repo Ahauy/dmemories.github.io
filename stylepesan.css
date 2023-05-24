@@ -30,7 +30,7 @@ header {
   -o-transition: 0.2s ease all;
 }
 header::after {
-  content: "DEKA TUTORIAL";
+  content: "PESAN";
   font-size: 1.5em;
   font-weight: bold;
 }
