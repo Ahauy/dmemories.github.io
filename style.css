@@ -582,8 +582,8 @@ img {
     position: relative;
     top: -10px;
     width: 99%;
-    background-color: white;
-    transition: all .2s ease-in-out;
+    background-color: #46c1f2;
+    transition: all .15s ease-in-out;
     cursor: pointer;
 }
 
@@ -1928,9 +1928,9 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 65%;
+        top: 50%;
         left: 50%;
-        transform: translate(-80%, -80%);
+        transform: translate(-100%, -100%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
@@ -1943,9 +1943,9 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 65%;
+        top: 50%;
         left: 50%;
-        transform: translate(-80%, -80%);
+        transform: translate(-100%, -100%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
@@ -2257,7 +2257,7 @@ img.spec {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-80%, -80%);
+        transform: translate(-100%, -100%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
@@ -2272,7 +2272,7 @@ img.spec {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translate(-80%, -80%);
+        transform: translate(-100%, -100%);
         transform: translateX(-50%);
         transition: all 500ms ease;
         animation-duration: 1s;
@@ -2871,9 +2871,9 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 43%;
+        top: 50%;
         left: 50%;
-        transform: translate(-80%, -80%);
+        transform: translate(-100%, -100%);
         transform: translateX(-50%);
         transition: all 250ms ease;
         animation-duration: 550ms;
@@ -2886,9 +2886,9 @@ img.spec {
         height: auto;
         opacity: 1;
         position: absolute;
-        top: 43%;
+        top: 50%;
         left: 50%;
-        transform: translate(-80%, -80%);
+        transform: translate(-100%, -100%);
         transform: translateX(-50%);
         transition: all 250ms ease;
         animation-duration: 550ms;
