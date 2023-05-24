@@ -9,31 +9,43 @@
 </head>
 <body>
     <nav>
-        <div class="wrapper">
-            <div class="logo"><a href=''>D'Memories</a></div>
-            <div class="menu">
-                <ul>
-                    <li><a href="#home">About</a></li>
-                    <li><a href="#partners">Memories</a></li>
-                    <li><a href="#pesan">Message</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+        <div class="wrappernav">
+            <div class="logo"><a href="#utama">D'Memories</a></div>
+              <div class="navbar">
+                <div class="dropdown">
+                    <button class="dropbtn"><div class="kebawah"><img src="anjay.png"></div></button>
+                    <div class="dropdown-content">
+                        <a href="#home">About</a>
+                        <a href="#partners">Memories</a>
+                        <a href="#pesan">Message</a>
+                        <a href="#contact">Contact</a>
+                    </div>
+                </div> 
             </div>
         </div>
     </nav>
         <!-- untuk home -->
+    <section id="utama">
+        <div class="utama">
+            <h2>D'Memories</h2>
+            <p>Adalah website yang berisi kenangan Kelas D.</p>
+        </div>
+    </section>
     <section id="home">
     <article id="top">
         <div class="container">
+            <div class="grad">
             <div class="row">
+                <h3>Graduation</h3>
                 <div class="col1">
-                    <img src="photo/icon.png">
+                    <img src="photo/sca/sca%20(0).jpg"/>
+                    <h2>Last Photo</h2>
                 </div>
                 <div class="col2">
-                    <h3>Selamat Datang di D'Memories!</h3>
-                    <p>D'Memories adalah situs web yang berisi "kenangan" dari kelas D</p>
+                    <p>Last Ceremony, dd/mm/yyyy.</p>
+                    <p>3 years of being together many stories have been passed, from happiness to sadness. and it's over.</p>
                     <a href="about.html">
-                        <button class="tombolabout" type="button">About </button>
+                        <button class="tombolabout" type="button"> About </button>
                     </a>
                 </div>
             </div>
@@ -46,10 +58,10 @@
                 <div class="row">
                 <h3>Memories</h3>
                     <div class="col5">
-                    <a href="galeribest.html">
-                        <button class="biasa" type="button"><img src="photo/besttulisan.jpg">
-                            <h3>Best Memories</h3>
-                            <p>Best Photo & Video about Class D</p>
+                    <a href="galeribiasa.html">
+                        <button class="biasa" type="button"><img src="photo/tulisanfoto.jpg">
+                            <h3>Photo Memories</h3>
+                            <p>All Photos about Class D</p>
                         </button>
                     </a>
                     </div>
@@ -62,10 +74,10 @@
                     </a>
                     </div>
                     <div class="col7">
-                    <a href="galeribiasa.html">
-                        <button class="biasa" type="button"><img src="photo/biasatulisan.jpg">
-                            <h3>Memories</h3>
-                            <p>All Photos & Videos About Class D</p>
+                    <a href="galeribest.html">
+                        <button class="biasa" type="button"><img src="photo/tulisanvideo.jpg">
+                            <h3>Video Memories</h3>
+                            <p>All Videos About Class D</p>
                         </button>
                     </a>
                     </div>  
@@ -78,13 +90,11 @@
             <article id="top2">
             <div class="container">
                 <div class="row">
-                <h3>Message / Wisewords</h3>
                     <div class="colpesan">
                     <div class="box">
-                        <img src="photo/D'pesan.jpg">
                         <p>Mau ninggalin jejak? atau mau ngirim kata kata buat kelas D? Tekan tombol di bawah ini</p>
-                        <a href="https://pesan.axellsatria.repl.co/"><button type="button" >Write a Message</button></a>
-                    </a>
+                        <a href="https://pesan.axellsatria.repl.co/"><button type="button" class>Kirim Pesan<img id="pesanicon" src="photo/pesanicon.png"></button></a>
+
                     </div>
                 </div>
             </div>
