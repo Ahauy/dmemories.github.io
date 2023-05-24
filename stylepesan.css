@@ -71,7 +71,7 @@ p span {
     display: flex;
     height: 2.5em;
     width: 100px;
-    margin: 10px 5px 5px auto;
+    margin: 20px auto;
     align-items: center;
     justify-content: center;
     border-radius: 10px;
