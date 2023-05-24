@@ -4,6 +4,11 @@
     padding: 0px;
 }
 
+@font-face {
+    font-family: 'HARRINGT';
+    src: url(harrington/HARRINGT.ttf);
+}
+
 html {
     width: -webkit-fill-available;
     width: 100%;
@@ -15,7 +20,7 @@ body {
     width: 100%;
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans',sans-serif,'';
     background-image: url(https://i.postimg.cc/8cjRKYj8/gambar.png);
     min-height: 100vh;
     min-width: 100vw;
@@ -604,6 +609,32 @@ img {
 
 .row > .colvideo video {
     width: 100%;
+}
+
+/* Special */
+
+.row .specialhead h3 {
+    font-size: 8vw;
+    line-height: 130px;
+    color: black;
+    margin-bottom: 2%;
+    font-weight: 900;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 4px black;
+    margin-top: 0;
+    font-family: "HARRINGT";
+}
+
+.row .specialhead span {
+    font-size: 8vw;
+    line-height: 120px;
+    color: #ea8a95;
+    text-align: left;
+    margin: 0;
+    margin-bottom: 8%;
+    font-weight: 900;
+    letter-spacing: 3px;
+    font-family: sans-serif;
 }
 
 /* about */
@@ -1899,6 +1930,28 @@ img.spec {
         letter-spacing: 5px;
         line-height: 100px;
     }
+    
+    .row .specialhead h3 {
+        font-size: 10vw;
+        line-height: 5px;
+        color: black;
+        margin: 3% 0;
+        margin-bottom: 0%;
+        font-weight: 900;
+        letter-spacing: 5px;
+        text-shadow: 0px 0px 4px black;
+        text-align: center;
+        font-family: "HARRINGT";
+    }
+
+    .row .specialhead span {
+        font-size: 10vw;
+        color: #ea8a95;
+        text-align: left;
+        font-weight: 900;
+        letter-spacing: 3px;
+        font-family: sans-serif;
+    }
 
 
     input[type="radio"] + label {
@@ -2931,6 +2984,28 @@ img.spec {
         left: 95%;
         transform: translate(-100%, -100%);
         position: absolute;
+    }
+
+    .row .specialhead h3 {
+        font-size: 13vw;
+        color: black;
+        line-height: 20px;
+        margin: 0;
+        font-weight: 900;
+        letter-spacing: 5px;
+        text-shadow: 0px 0px 4px black;
+        text-align: center;
+        font-family: "HARRINGT";
+    }
+
+    .row .specialhead span {
+        font-size: 13vw;
+        color: #ea8a95;
+        text-align: left;
+        line-height: 60px;
+        font-weight: 900;
+        letter-spacing: 3px;
+        font-family: sans-serif;
     }
 
 }
