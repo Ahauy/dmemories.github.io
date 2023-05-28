@@ -44,6 +44,7 @@ nav {
     overflow: hidden;
 }
 
+
 .navbar a {
     float: right;
     display: block;
@@ -113,6 +114,11 @@ nav {
 
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+#display {
+    margin: auto;
+    opacity: 0.5;
 }
 
 .kembali  {
@@ -289,6 +295,24 @@ button:hover .button-text {
     border: 6px solid black;
     
 }
+
+.galerivideo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galerivideopot video {
+    width: 29.33%;
+    margin: 1%;
+    object-fit: cover;
+}
+
+.galerivideo video {
+    width: 46%;
+    margin: 1%;
+    object-fit: cover;
+}
+
 
 .container {
     width: 1100px;
@@ -1625,16 +1649,27 @@ img.spec {
         width: 640px;  
     }
 
-    .wrapper video {
-        align-content: center;
-        width: 97%;
-        border: 6px solid black;
-    }
-
     nav {
         width: 100%;
     }
-    
+
+    .galerivideo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .galerivideopot video {
+        width: 29%;
+        margin: 0.9%;
+        object-fit: cover;
+    }
+
+    .galerivideo video {
+        width: 46%;
+        margin: 1%;
+        object-fit: cover;
+    }
+
 
     section {
         display: block;
@@ -2175,14 +2210,26 @@ img.spec {
         width: 640px;  
     }
 
-    .wrapper video {
-        align-content: center;
-        width: 97%;
-        border: 6px solid black;
-    }
-
     nav {
         width: 100%;
+    }
+
+
+    .galerivideo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .galerivideopot video {
+        width: 27.66%;
+        margin: 1%;
+        object-fit: cover;
+    }
+
+    .galerivideo video {
+        width: 45%;
+        margin: 1%;
+        object-fit: cover;
     }
 
     section {
@@ -2389,12 +2436,6 @@ img.spec {
         width: 640px;  
     }
 
-    .wrapper video {
-        align-content: center;
-        width: 97%;
-        border: 6px solid black;
-    }
-
     nav {
         width: 100%;
     }
@@ -2547,6 +2588,24 @@ img.spec {
         min-width: 100vw;
     }
     
+    .galerivideo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .galerivideopot video {
+        width: 26.5%;
+        margin: 0.3%;
+        object-fit: cover;
+    }
+
+    .galerivideo video {
+        width: 43%;
+        margin: 0.5%;
+        object-fit: cover;
+    }
+
+
     .container {
         max-width: 100%;
     }
@@ -2645,12 +2704,6 @@ img.spec {
     img {
         margin: auto;
         width: 640px;  
-    }
-
-    .wrapper video {
-        align-content: center;
-        width: 97%;
-        border: 6px solid black;
     }
 
     nav {
