@@ -371,6 +371,28 @@ img {
     font-family: "Segoe UI",Arial,sans-serif;
 }
 
+.row > .videogaleri1 {
+    width: 45%;
+    margin: 2.5%;
+}
+
+.row > .videogaleri1 video {
+    width: 100%;
+    object-fit: cover;
+    border: 3px solid #2d2d1f;
+}
+
+.row > .videogaleri2 {
+    width: 45%;
+    margin: 2.5%;
+}
+
+.row > .videogaleri2 video {
+    width: 100%;
+    object-fit: cover;
+    border: 3px solid #2d2d1f;
+}
+
 .row > .col1 {
     width: 33%;
 }
@@ -1555,6 +1577,42 @@ img.spec {
     background-size: cover;
 }
 
+.item-16 {
+    z-index: 2;
+    opacity: 1;
+    background: url('photo/spec/spec3/display.jpg');
+    background-size: cover;
+}
+.item-17 {
+    background: url('photo/spec/spec3/spec%20(1).jpg');
+    background-size: cover;
+}
+.item-18 {
+    background: url('photo/spec/spec3/spec%20(2).jpg');
+    background-size: cover;
+}
+.item-19 {
+    background: url('photo/spec/spec3/spec%20(3).jpg');
+    background-size: cover;
+}
+.item-20 {
+    background: url('photo/spec/spec3/spec%20(4).jpg');
+    background-size: cover;
+}
+.item-21 {
+    background: url('photo/spec/spec3/spec%20(5).jpg');
+    background-size: cover;
+}
+.item-22 {
+    background: url('photo/spec/spec3/spec%20(6).jpg');
+    background-size: cover;
+}
+.item-23 {
+    background: url('photo/spec/spec3/spec%20(7).jpg');
+    background-size: cover;
+}
+
+
 *:target ~ .item-1 {
     opacity: 0;
 }
@@ -1569,6 +1627,13 @@ img.spec {
     opacity: 1;
 }
 
+*:target ~ .item-16 {
+    opacity: 0;
+}
+#item-16:target ~ .item-16 {
+    opacity: 1;
+}
+
 #item-2:target ~ .item-2, #item-3:target ~ .item-3, #item-4:target ~ .item-4, #item-5:target ~ .item-5, #item-6:target ~ .item-6, #item-7:target ~ .item-7, #item-8:target ~ .item-8 {
     z-index: 3;
     opacity: 1;
@@ -1578,6 +1643,13 @@ img.spec {
     z-index: 3;
     opacity: 1;  
 }
+
+#item-17:target ~ .item-17, #item-18:target ~ .item-18, #item-19:target ~ .item-19, #item-20:target ~ .item-20, #item-21:target ~ .item-21, #item-22:target ~ .item-22, #item-23:target ~ .item-23 {
+    z-index: 3;
+    opacity: 1;  
+}
+
+
 
 @media screen and (max-width: 991.98px) {
     .wrapper {
